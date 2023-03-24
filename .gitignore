@@ -5,7 +5,4 @@
 .coverage
 *__pycache__
 .vscode
-
-*latency_arbitrage_strategy.py
-
-*pure_market_making_strategy.py
+**latency_arbitrage*

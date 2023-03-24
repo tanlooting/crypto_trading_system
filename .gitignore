@@ -5,5 +5,5 @@
 .coverage
 *__pycache__
 .vscode
-src/strategies/latency_arbitrage_strategy.py
+*latency_arbitrage_strategy.py
 

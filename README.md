@@ -65,4 +65,4 @@ Before the system starts running, it does the following in sequence:
 
 # Test
 
-- use `naive_test_strategy.py` to test order execution placement
+- use `naive_test_strategy.py` to test order execution (placement/ cancellation)

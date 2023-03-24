@@ -1,0 +1,16 @@
+# this identifies which strategy to run and specific
+
+strategy:
+  latencyArbitrage:
+    active: false
+    capital: 0
+    instruments:
+      - "ETHMYR.luno"
+      - "ETHUSD.kraken"
+
+  # test streaming/ order placing logic
+  naiveTest:
+    active: true
+    capital: 10
+    instruments:
+      - "UNIMYR.luno"

@@ -1,0 +1,15 @@
+market: "UNIMYR"
+bid_spread:
+ask_spread:
+min_spread:
+order_refresh_time: 60
+order_refresh_tolerance_pct: 0
+order_amount:
+price_ceiling:
+price_floor:
+order_levels:
+order_level_amount:
+order_level_spread:
+inventory_skew_enabled:
+inventory_target_base_pct:
+inventory_range_multiplier:

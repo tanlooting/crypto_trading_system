@@ -1,0 +1,3 @@
+class RiskManager:
+    def valid_order(self, order, strategy_manager=None):
+        ...

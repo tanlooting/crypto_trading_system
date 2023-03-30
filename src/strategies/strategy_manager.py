@@ -82,7 +82,6 @@ class StrategyManager:
         event.oid = oid
         event.order_time = datetime.datetime.now().timestamp() * 1000
         self._sid_oid_dict[event.sid].append(oid)
-
         # actual place order
         if event.ordertype == OrderType.MKT:
             params = {
@@ -98,6 +97,7 @@ class StrategyManager:
             self._broker.place_market_order(**params)
 
         elif event.ordertype == OrderType.LMT:
+
             self._broker.place_limit_order(
                 pair=event.sym,
                 price=event.price,

@@ -1,3 +1,9 @@
+"""Events
+
+Implemented: Tick, Order, Fill, CheckOrderStatus
+
+Other potential events: Position, Bar, WarmUp, EndOfDay, EndofAlgo,
+"""
 from enum import Enum
 
 
@@ -89,6 +95,9 @@ class OrderEvent:
         self.execution_price = None
         self.luno_oid = None  # luno oid
 
+        # NOTE!: By default, all orders need to provide base_volume
+        # (i.e. trading BTCMYR, all units are determine in BTC. Base vol of 1 == 1 BTC).
+        # For MKT buy orders, LUNO requires counter volume to be provided instead. Hence we calculate them here.
         if (self.ordertype == OrderType.MKT) & (self.direction == OrderDir.BID):
             self.counter_volume = self.base_volume * self.price
 

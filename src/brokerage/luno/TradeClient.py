@@ -201,6 +201,7 @@ class TradeClient:
         timestamp=None,
         ttl=None,
     ):
+
         self.client.post_limit_order(
             pair=pair,
             price=price,
@@ -228,7 +229,6 @@ class TradeClient:
         timestamp=None,
         ttl=None,
     ):
-        print("placing market order")
         self.client.post_market_order(
             pair,
             type,
@@ -245,14 +245,14 @@ class TradeClient:
         """generate a valid unique Client Order Id for posting orders"""
         pass
 
-    def get_order(self, client_order_id) -> dict:
-        return self.client.get_order_v3(client_order_id=client_order_id)
+    def get_order(self, order_id) -> dict:
+        return self.client.get_order_v3(client_order_id=order_id)
 
     def get_order_status(self, order_id) -> str:
         """
         order status includes "AWAITING", "PENDING", "COMPLETE"
         """
-        return self.get_order["state"]
+        return self.get_order(order_id)["state"]
 
     def cancel_order(self, order_id):
         self.client.stop_order(order_id=order_id)

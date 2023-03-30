@@ -21,9 +21,7 @@ class TradingSystem:
         self._auth_config = dotenv_values(".env")
         # set up event_engine
         self.heartbeat = heartbeat
-
         self.setup_event_engine()
-
         self.load_strategies(strat_config_path)
 
         # connect

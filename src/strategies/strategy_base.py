@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from src.strategies.strategy_manager import StrategyManager
 from src.orders.order_manager import OrderManager
 from src.positions.position_manager import PositionManager

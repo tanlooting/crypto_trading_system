@@ -1,11 +1,9 @@
-""" TESTS
-    1. at 5th tick we places a market order
+""" 
+PURE MARKET MAKING 
+@looting 
 
-    2. At 10th tick we place a far limit order BUY order
-
-    3. At 12th tick we place another limit BUY order
-
-    4. At 20th tick, cancel all orders (useful for MM/ time-based orders)
+Reference:
+https://docs.hummingbot.org/strategies/pure-market-making/#architecture
 """
 
 from src.strategies.strategy_base import StrategyBase
@@ -13,50 +11,26 @@ from src.events import OrderEvent, OrderType, TickEvent, OrderDir, Exchange
 from termcolor import cprint, colored
 
 
-class naiveTest(StrategyBase):
+class marketMaking(StrategyBase):
     def __init__(self):
         """ """
-        super(naiveTest, self).__init__()
+        super(marketMaking, self).__init__()
         self.counter = 0
         self.spread_pct = 0
+
+        self.mid_price = list()
+        self.bid_counter = 0
+        self.ask_counter = 0
+
+        # connect to logs/ database service
 
     def on_tick(self, event: TickEvent):
 
         self.counter += 1
         mid_p = (event.ask_p + event.bid_p) / 2
         self.spread_pct = (event.ask_p - event.bid_p) / mid_p
-
         print(f"{event}, spread_pct = {self.spread_pct *100}%")
         super().on_tick(event)
-
-        # if self.counter == 5:
-
-        #     # test placing a market order:
-        #     o = OrderEvent(
-        #         sid=self.id,
-        #         sym=event.sym,
-        #         ordertype=OrderType.MKT,
-        #         direction=OrderDir.BID,  # buy order
-        #         price=mid_p,
-        #         base_volume=0.12,
-        #     )
-
-        #     self.place_order(o)
-        if (self.counter == 5) | (self.counter == 12):
-            print("place order")
-            # test placing a limit order that is far away
-            o = OrderEvent(
-                sid=self.id,
-                sym=event.sym,
-                ordertype=OrderType.LMT,
-                direction=OrderDir.BID,  # buy order
-                price=round(mid_p - 15, 2),
-                base_volume=0.1,
-            )
-            self.place_order(o)
-
-        if self.counter == 20:
-            self.cancel_all()
 
         print(f"Current standing orders: {self.get_order_ids()}")
         print(f"Current cancelled orders: {self.get_cancelled_order_ids()}")
@@ -75,3 +49,29 @@ class naiveTest(StrategyBase):
         for order in self.order_manager.canceled_order_set:
             order_ids.append(order.luno_oid)
         return order_ids
+
+    def cancel_bids(self):
+        ...
+        self.bid_counter = 0
+
+    def cancel_asks(self):
+        ...
+        self.ask_counter = 0
+
+    def on_order_status(self):
+        super().on_order_status()
+        # do something more like check if time exceeds max age limit.
+        # if yes, cancel orders
+
+    def get_volatility():
+        ...
+
+    def kill_switch(self):
+        """if pnl down significantly, or some shit happens. EXIT trading strategy."""
+        self.active = False
+        ...
+
+    def cancel_all(self):
+        super().cancel_all()
+        self.bid_counter = 0
+        self.ask_counter = 0

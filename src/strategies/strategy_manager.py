@@ -1,4 +1,5 @@
 import datetime
+import logging
 from src.brokerage.luno.TradeClient import TradeClient
 from src.orders.order_manager import OrderManager
 from src.positions.position_manager import PositionManager
@@ -12,6 +13,8 @@ from src.events import (
     CheckOrderStatusEvent,
 )
 import uuid
+
+_logger = logging.getLogger("trading_system")
 
 
 class StrategyManager:
@@ -29,13 +32,13 @@ class StrategyManager:
 
         self.strat_dict = {}
         self.sym_strategy_dict = {}  # symbol to strategy
+        self.sym_tick_size_dict = self.strat_config["min_tick_size"]
         self.strat_sym_dict = {}
         self.active_symbols = []
         self._sid_oid_dict = {0: []}  # others note in
 
     def load_strategy(self, strat_dict: dict):
         sid = 1
-
         for k, v in strat_dict.items():
             v.id = sid
             v.name = k

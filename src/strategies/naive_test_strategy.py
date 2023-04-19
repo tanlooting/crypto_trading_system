@@ -7,10 +7,12 @@
 
     4. At 20th tick, cancel all orders (useful for MM/ time-based orders)
 """
-
+import logging
 from src.strategies.strategy_base import StrategyBase
 from src.events import OrderEvent, OrderType, TickEvent, OrderDir, Exchange
 from termcolor import cprint, colored
+
+_logger = logging.getLogger("trading_system")
 
 
 class naiveTest(StrategyBase):
@@ -27,6 +29,8 @@ class naiveTest(StrategyBase):
         self.spread_pct = (event.ask_p - event.bid_p) / mid_p
 
         print(f"{event}, spread_pct = {self.spread_pct *100}%")
+        _logger.info(f"spread_pct: {self.spread_pct * 100}")
+
         super().on_tick(event)
 
         # if self.counter == 5:
@@ -53,7 +57,7 @@ class naiveTest(StrategyBase):
                 price=round(mid_p - 15, 2),
                 base_volume=0.1,
             )
-            self.place_order(o)
+            # self.place_order(o)
 
         if self.counter == 20:
             self.cancel_all()

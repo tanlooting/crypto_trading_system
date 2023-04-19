@@ -5,6 +5,7 @@ Implemented: Tick, Order, Fill, CheckOrderStatus
 Other potential events: Position, Bar, WarmUp, EndOfDay, EndofAlgo,
 """
 from enum import Enum
+import time
 
 
 class Exchange(Enum):
@@ -52,9 +53,9 @@ class TickEvent:
         bid_v=None,
         ask_v=None,
     ):
-        self.sym = sym
-        self.exc = exchange
-        self.code = code
+        self.sym = sym  # ETHMYR
+        self.exc = exchange  # Exchange.LUNO
+        self.code = code  # ETHMYR.luno
         self.type = EventType.TICK
         self.timestamp = timestamp
         self.bid_p = bid_p
@@ -72,7 +73,7 @@ class OrderEvent:
         sid,
         sym,
         ordertype: OrderType,
-        direction,
+        direction: OrderDir,
         base_volume: float,
         price: float,
         time_in_force="GTC",
@@ -91,7 +92,7 @@ class OrderEvent:
         self.price = price
         self.stop = stop
         self.post_only = post_only
-        self.order_time = None
+        self.order_time = time.time_ns() / 1000  # in ms
         self.execution_price = None
         self.luno_oid = None  # luno oid
 

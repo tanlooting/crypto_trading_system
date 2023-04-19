@@ -1,4 +1,6 @@
-# order logic and integrate the brokerage into the system, no external dependencies
+""" Order logic and integrating brokerage APIs into the system, no external dependencies
+Not implemented yet
+"""
 
 
 class ServiceClient:

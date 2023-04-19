@@ -1,11 +1,15 @@
-from dateutil.relativedelta import relativedelta
-import datetime
-import pandas as pd
 import time
+import datetime
+import logging
 import krakenex
+import pandas as pd
+
+from dateutil.relativedelta import relativedelta
 from pykrakenapi import KrakenAPI
 from src.events import TickEvent, Exchange
 from src.events_engine import EventEngine
+
+_logger = logging.getLogger("trading_system")
 
 
 class TradeClient:

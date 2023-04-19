@@ -55,13 +55,21 @@ Before the system starts running, it does the following in sequence:
 
 ## To-do
 
+### Completed
+
+- add logging
+
+### On-going
+
 - execution classes
   - change order execution to asynchronous functions
+- save trades
+- fix consistency in terms of `sym` and `code`
 - live performance metrics
-- risk manager
+- risk manager - order check
+- add unit tests
 - performance profiling
 - GUI
-- add tests
 
 # Test
 

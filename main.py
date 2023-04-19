@@ -2,6 +2,12 @@ import os
 import time
 import yaml
 import importlib
+import logging
+import datetime
+import pathlib
+import socket
+from logging.handlers import SysLogHandler
+
 from dotenv import dotenv_values
 from src.brokerage.luno.luno import Luno
 from src.brokerage.kraken.kraken import Kraken
@@ -23,6 +29,7 @@ class TradingSystem:
         self.heartbeat = heartbeat
         self.setup_event_engine()
         self.load_strategies(strat_config_path)
+        self._logger = self.setup_logger()
 
         # connect
         self.luno_tc = Luno(
@@ -43,7 +50,7 @@ class TradingSystem:
             self.trading_config = yaml.safe_load(f)
 
         self.strat_dict = {}
-        self.instrument_list = {}  # dict(list[str])
+        self.instrument_list = {}
 
         for _, _, files in os.walk(os.path.abspath("./src/strategies/")):
             for file in files:
@@ -53,11 +60,13 @@ class TradingSystem:
                     try:
                         module = importlib.import_module(f"src.strategies.{s}")
                         for k in dir(module):
-                            if k in self.trading_config["strategy"].keys():
 
+                            if k in self.trading_config["strategy"].keys():
                                 v = module.__getattribute__(k)
                                 _strategy = v()  # strategy class
+
                                 _strategy.set_name(k)
+
                                 self.strat_dict[k] = _strategy
 
                                 self.instrument_list[k] = self.trading_config[
@@ -106,6 +115,7 @@ class TradingSystem:
                     sym, exc = inst_code[0], inst_code[1]
                     if exc == "luno":
                         ticker = self.luno_tc.get_ticker(sym)
+                        self._logger.info(ticker)
                     if exc == "kraken":
                         ticker = self.kraken_tc.get_ticker(sym)
 
@@ -137,9 +147,40 @@ class TradingSystem:
         self.strategy_manager.on_fill(event)
         # log trades
 
+    def setup_logger(self):
+        """Set up logger
+        Add PAPERTRAIL_HOST and PAPERTRAIL_PORT in .env file
+        """
+        date = datetime.date.today()
+        _logger = logging.getLogger("trading_system")
+        _logger.setLevel(logging.INFO)
+
+        sysloghandler = SysLogHandler(
+            address=(
+                self._auth_config["papertrail_host"],
+                int(self._auth_config["papertrail_port"]),
+            )
+        )
+        log_path = pathlib.Path("./src/logs/")
+        if not os.path.exists(log_path):
+            os.makedirs(log_path)
+
+        localhandler = logging.FileHandler(log_path / f"{date}.log")
+        formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        )
+        localhandler.setFormatter(formatter)
+        sysloghandler.setFormatter(formatter)
+
+        _logger.addHandler(localhandler)
+        _logger.addHandler(sysloghandler)
+
+        return _logger
+
 
 if __name__ == "__main__":
     trader = TradingSystem(
-        strat_config_path="./src/configs/global_strategy_config.yaml"
+        strat_config_path="./src/configs/global_strategy_config.yaml",
+        heartbeat=1,  # need to change to async
     )
     trader.run()

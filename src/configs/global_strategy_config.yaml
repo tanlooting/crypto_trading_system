@@ -8,9 +8,27 @@ strategy:
       - "ETHMYR.luno"
       - "ETHUSD.kraken"
 
+  # market making
+  marketMaking:
+    active: false
+    capital: 10
+    instruments:
+      - "UNIMYR.luno"
+
   # test streaming/ order placing logic
   naiveTest:
     active: true
     capital: 10
     instruments:
       - "UNIMYR.luno"
+
+  # add params here.
+
+min_tick_size:
+  "UNIMYR.luno": 0.01
+  "ETHMYR.luno": 1
+  "XBTMYR.luno": 1
+  "XRPMYR.luno": 0.0001
+  "ADAMYR.luno": 0.0001
+  "SOLMYR.luno": 0.01
+  "LINKMYR.luno": 0.01

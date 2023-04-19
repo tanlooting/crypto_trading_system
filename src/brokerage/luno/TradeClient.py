@@ -5,6 +5,9 @@ import pandas as pd
 import time
 from src.events import EventType, Exchange, TickEvent, OrderEvent
 from src.events_engine import EventEngine
+import logging
+
+_logger = logging.getLogger("trading_system")
 
 ALL_VALID_GRANULARITY = [
     60,

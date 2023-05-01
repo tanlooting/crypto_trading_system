@@ -1,0 +1,400 @@
+2023-04-27 00:27:09,461 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526429368, bid: 24.97, ask: 25.08
+2023-04-27 00:27:09,464 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526429368, bid: 24.97, ask: 25.08
+2023-04-27 00:27:09,464 - trading_system - INFO - spread_pct: 0.43956043956043733
+2023-04-27 00:27:10,689 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526430680, bid: 24.97, ask: 25.08
+2023-04-27 00:27:10,691 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526430680, bid: 24.97, ask: 25.08
+2023-04-27 00:27:10,692 - trading_system - INFO - spread_pct: 0.43956043956043733
+2023-04-27 00:27:11,906 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526431898, bid: 24.97, ask: 25.08
+2023-04-27 00:27:11,909 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526431898, bid: 24.97, ask: 25.08
+2023-04-27 00:27:11,909 - trading_system - INFO - spread_pct: 0.43956043956043733
+2023-04-27 00:27:13,118 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526433108, bid: 24.97, ask: 25.08
+2023-04-27 00:27:13,121 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526433108, bid: 24.97, ask: 25.08
+2023-04-27 00:27:13,121 - trading_system - INFO - spread_pct: 0.43956043956043733
+2023-04-27 00:34:35,085 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526875065, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,087 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526875065, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,087 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:35,293 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526875277, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,295 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526875277, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,295 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:35,510 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526875493, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,511 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526875493, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,511 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:35,730 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526875713, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,731 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526875713, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,733 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:35,941 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526875925, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,943 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526875925, bid: 24.96, ask: 24.97
+2023-04-27 00:34:35,943 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:36,154 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526876137, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,155 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526876137, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,156 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:36,363 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526876347, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,364 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526876347, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,364 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:36,576 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526876559, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,577 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526876559, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,578 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:36,794 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526876778, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,795 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526876778, bid: 24.96, ask: 24.97
+2023-04-27 00:34:36,796 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:34:37,006 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682526876989, bid: 24.96, ask: 24.97
+2023-04-27 00:34:37,007 - trading_system - INFO - TICK UNIMYR.luno - date: 1682526876989, bid: 24.96, ask: 24.97
+2023-04-27 00:34:37,007 - trading_system - INFO - spread_pct: 0.04005607850990591
+2023-04-27 00:43:26,362 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527406362, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,366 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527406362, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,367 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:26,571 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527406575, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,573 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527406575, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,573 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:26,772 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527406773, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,774 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527406773, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,775 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:26,987 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527406992, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,988 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527406992, bid: 24.9, ask: 25.01
+2023-04-27 00:43:26,988 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:27,198 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527407196, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,200 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527407196, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,201 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:27,415 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527407414, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,417 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527407414, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,417 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:27,616 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527407619, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,616 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527407619, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,617 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:27,817 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527407819, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,819 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527407819, bid: 24.9, ask: 25.01
+2023-04-27 00:43:27,820 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:43:28,026 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527408027, bid: 24.9, ask: 25.01
+2023-04-27 00:43:28,028 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527408027, bid: 24.9, ask: 25.01
+2023-04-27 00:43:28,028 - trading_system - INFO - spread_pct: 0.44079342817071926
+2023-04-27 00:45:29,954 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527529953, bid: 24.9, ask: 24.98
+2023-04-27 00:45:29,958 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527529953, bid: 24.9, ask: 24.98
+2023-04-27 00:45:29,958 - trading_system - INFO - spread_pct: 0.3207698476343298
+2023-04-27 00:45:31,163 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527531164, bid: 24.9, ask: 24.98
+2023-04-27 00:45:31,166 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527531164, bid: 24.9, ask: 24.98
+2023-04-27 00:45:31,166 - trading_system - INFO - spread_pct: 0.3207698476343298
+2023-04-27 00:45:32,375 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527532377, bid: 24.9, ask: 24.97
+2023-04-27 00:45:32,376 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527532377, bid: 24.9, ask: 24.97
+2023-04-27 00:45:32,377 - trading_system - INFO - spread_pct: 0.28072989773410983
+2023-04-27 00:45:33,586 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527533590, bid: 24.9, ask: 24.96
+2023-04-27 00:45:33,588 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527533590, bid: 24.9, ask: 24.96
+2023-04-27 00:45:33,588 - trading_system - INFO - spread_pct: 0.24067388688328228
+2023-04-27 00:45:34,800 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527534797, bid: 24.9, ask: 24.96
+2023-04-27 00:45:34,802 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527534797, bid: 24.9, ask: 24.96
+2023-04-27 00:45:34,803 - trading_system - INFO - spread_pct: 0.24067388688328228
+2023-04-27 00:45:36,032 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527536025, bid: 24.9, ask: 24.96
+2023-04-27 00:45:36,035 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527536025, bid: 24.9, ask: 24.96
+2023-04-27 00:45:36,036 - trading_system - INFO - spread_pct: 0.24067388688328228
+2023-04-27 00:45:37,256 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527537241, bid: 24.9, ask: 24.96
+2023-04-27 00:45:37,258 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527537241, bid: 24.9, ask: 24.96
+2023-04-27 00:45:37,259 - trading_system - INFO - spread_pct: 0.24067388688328228
+2023-04-27 00:45:38,481 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527538468, bid: 24.9, ask: 24.96
+2023-04-27 00:45:38,483 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527538468, bid: 24.9, ask: 24.96
+2023-04-27 00:45:38,483 - trading_system - INFO - spread_pct: 0.24067388688328228
+2023-04-27 00:47:00,970 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527620971, bid: 24.9, ask: 24.94
+2023-04-27 00:47:00,972 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527620971, bid: 24.9, ask: 24.94
+2023-04-27 00:47:00,973 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:01,170 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527621174, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,171 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527621174, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,171 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:01,366 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527621370, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,367 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527621370, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,367 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:01,560 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527621565, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,561 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527621565, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,561 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:01,760 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527621763, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,762 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527621763, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,763 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:01,972 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527621972, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,974 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527621972, bid: 24.9, ask: 24.94
+2023-04-27 00:47:01,974 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:02,177 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527622180, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,180 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527622180, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,181 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:02,381 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527622383, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,384 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527622383, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,384 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:02,599 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527622595, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,602 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527622595, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,603 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:02,801 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527622806, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,803 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527622806, bid: 24.9, ask: 24.94
+2023-04-27 00:47:02,803 - trading_system - INFO - spread_pct: 0.1605136436597219
+2023-04-27 00:47:18,750 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527638748, bid: 24.91, ask: 25.1
+2023-04-27 00:47:18,752 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527638748, bid: 24.91, ask: 25.1
+2023-04-27 00:47:18,752 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:18,962 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527638966, bid: 24.91, ask: 25.1
+2023-04-27 00:47:18,964 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527638966, bid: 24.91, ask: 25.1
+2023-04-27 00:47:18,964 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:19,169 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527639173, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,170 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527639173, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,171 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:19,484 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527639478, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,487 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527639478, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,487 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:19,705 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527639700, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,707 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527639700, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,708 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:19,920 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527639919, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,923 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527639919, bid: 24.91, ask: 25.1
+2023-04-27 00:47:19,923 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:20,152 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527640150, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,154 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527640150, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,155 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:20,356 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527640358, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,359 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527640358, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,360 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:20,554 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527640559, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,557 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527640559, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,558 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:20,786 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527640786, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,787 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527640786, bid: 24.91, ask: 25.1
+2023-04-27 00:47:20,788 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:30,596 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527650594, bid: 24.91, ask: 25.1
+2023-04-27 00:47:30,598 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527650594, bid: 24.91, ask: 25.1
+2023-04-27 00:47:30,599 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:31,802 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527651805, bid: 24.91, ask: 25.1
+2023-04-27 00:47:31,805 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527651805, bid: 24.91, ask: 25.1
+2023-04-27 00:47:31,805 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:33,015 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527653020, bid: 24.91, ask: 25.1
+2023-04-27 00:47:33,017 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527653020, bid: 24.91, ask: 25.1
+2023-04-27 00:47:33,017 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:34,226 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527654228, bid: 24.91, ask: 25.1
+2023-04-27 00:47:34,228 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527654228, bid: 24.91, ask: 25.1
+2023-04-27 00:47:34,229 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:47:35,494 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527655450, bid: 24.91, ask: 25.1
+2023-04-27 00:47:35,496 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527655450, bid: 24.91, ask: 25.1
+2023-04-27 00:47:35,497 - trading_system - INFO - spread_pct: 0.7598480303939262
+2023-04-27 00:48:21,752 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527701750, bid: 24.91, ask: 25.08
+2023-04-27 00:48:21,754 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527701750, bid: 24.91, ask: 25.08
+2023-04-27 00:48:21,755 - trading_system - INFO - spread_pct: 0.6801360272054338
+2023-04-27 00:48:22,979 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527702982, bid: 24.91, ask: 25.08
+2023-04-27 00:48:22,982 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527702982, bid: 24.91, ask: 25.08
+2023-04-27 00:48:22,982 - trading_system - INFO - spread_pct: 0.6801360272054338
+2023-04-27 00:48:24,194 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527704196, bid: 24.91, ask: 25.08
+2023-04-27 00:48:24,196 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527704196, bid: 24.91, ask: 25.08
+2023-04-27 00:48:24,197 - trading_system - INFO - spread_pct: 0.6801360272054338
+2023-04-27 00:48:25,420 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527705420, bid: 24.91, ask: 25.08
+2023-04-27 00:48:25,423 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527705420, bid: 24.91, ask: 25.08
+2023-04-27 00:48:25,423 - trading_system - INFO - spread_pct: 0.6801360272054338
+2023-04-27 00:49:33,905 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527773907, bid: 24.91, ask: 25.06
+2023-04-27 00:49:33,907 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527773907, bid: 24.91, ask: 25.06
+2023-04-27 00:49:33,907 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:35,120 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527775114, bid: 24.91, ask: 25.06
+2023-04-27 00:49:35,123 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527775114, bid: 24.91, ask: 25.06
+2023-04-27 00:49:35,124 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:36,340 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527776343, bid: 24.91, ask: 25.06
+2023-04-27 00:49:36,342 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527776343, bid: 24.91, ask: 25.06
+2023-04-27 00:49:36,342 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:37,549 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527777547, bid: 24.91, ask: 25.06
+2023-04-27 00:49:37,552 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527777547, bid: 24.91, ask: 25.06
+2023-04-27 00:49:37,553 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:38,847 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527778850, bid: 24.91, ask: 25.06
+2023-04-27 00:49:38,851 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527778850, bid: 24.91, ask: 25.06
+2023-04-27 00:49:38,851 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:40,070 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527780067, bid: 24.91, ask: 25.06
+2023-04-27 00:49:40,074 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527780067, bid: 24.91, ask: 25.06
+2023-04-27 00:49:40,075 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:41,280 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527781284, bid: 24.91, ask: 25.06
+2023-04-27 00:49:41,282 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527781284, bid: 24.91, ask: 25.06
+2023-04-27 00:49:41,283 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:42,507 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527782515, bid: 24.91, ask: 25.06
+2023-04-27 00:49:42,509 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527782515, bid: 24.91, ask: 25.06
+2023-04-27 00:49:42,509 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:43,720 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527783716, bid: 24.91, ask: 25.06
+2023-04-27 00:49:43,722 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527783716, bid: 24.91, ask: 25.06
+2023-04-27 00:49:43,723 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:44,945 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527784935, bid: 24.91, ask: 25.06
+2023-04-27 00:49:44,948 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527784935, bid: 24.91, ask: 25.06
+2023-04-27 00:49:44,948 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:46,161 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527786158, bid: 24.91, ask: 25.06
+2023-04-27 00:49:46,163 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527786158, bid: 24.91, ask: 25.06
+2023-04-27 00:49:46,164 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:47,395 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527787381, bid: 24.91, ask: 25.06
+2023-04-27 00:49:47,399 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527787381, bid: 24.91, ask: 25.06
+2023-04-27 00:49:47,400 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:48,608 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527788610, bid: 24.91, ask: 25.06
+2023-04-27 00:49:48,610 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527788610, bid: 24.91, ask: 25.06
+2023-04-27 00:49:48,610 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:49,810 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527789816, bid: 24.91, ask: 25.06
+2023-04-27 00:49:49,813 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527789816, bid: 24.91, ask: 25.06
+2023-04-27 00:49:49,813 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:51,027 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527791029, bid: 24.91, ask: 25.06
+2023-04-27 00:49:51,029 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527791029, bid: 24.91, ask: 25.06
+2023-04-27 00:49:51,030 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:52,247 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527792252, bid: 24.91, ask: 25.06
+2023-04-27 00:49:52,249 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527792252, bid: 24.91, ask: 25.06
+2023-04-27 00:49:52,250 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:53,466 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527793472, bid: 24.91, ask: 25.06
+2023-04-27 00:49:53,468 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527793472, bid: 24.91, ask: 25.06
+2023-04-27 00:49:53,468 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:55,019 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527794669, bid: 24.91, ask: 25.06
+2023-04-27 00:49:55,021 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527794669, bid: 24.91, ask: 25.06
+2023-04-27 00:49:55,021 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:56,229 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527796234, bid: 24.91, ask: 25.06
+2023-04-27 00:49:56,232 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527796234, bid: 24.91, ask: 25.06
+2023-04-27 00:49:56,232 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:57,444 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527797447, bid: 24.91, ask: 25.06
+2023-04-27 00:49:57,446 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527797447, bid: 24.91, ask: 25.06
+2023-04-27 00:49:57,447 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:58,697 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527798690, bid: 24.91, ask: 25.06
+2023-04-27 00:49:58,699 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527798690, bid: 24.91, ask: 25.06
+2023-04-27 00:49:58,699 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:49:59,905 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527799906, bid: 24.91, ask: 25.06
+2023-04-27 00:49:59,907 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527799906, bid: 24.91, ask: 25.06
+2023-04-27 00:49:59,908 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:50:01,116 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527801119, bid: 24.91, ask: 25.06
+2023-04-27 00:50:01,128 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527801119, bid: 24.91, ask: 25.06
+2023-04-27 00:50:01,129 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:50:02,334 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527802339, bid: 24.91, ask: 25.06
+2023-04-27 00:50:02,336 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527802339, bid: 24.91, ask: 25.06
+2023-04-27 00:50:02,336 - trading_system - INFO - spread_pct: 0.600360216129672
+2023-04-27 00:52:49,246 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527969249, bid: 24.91, ask: 25.0
+2023-04-27 00:52:49,249 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527969249, bid: 24.91, ask: 25.0
+2023-04-27 00:52:49,249 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 00:52:50,482 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527970469, bid: 24.91, ask: 25.0
+2023-04-27 00:52:50,484 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527970469, bid: 24.91, ask: 25.0
+2023-04-27 00:52:50,485 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 00:52:51,704 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527971709, bid: 24.91, ask: 25.0
+2023-04-27 00:52:51,706 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527971709, bid: 24.91, ask: 25.0
+2023-04-27 00:52:51,706 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 00:52:52,938 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527972933, bid: 24.91, ask: 25.0
+2023-04-27 00:52:52,939 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527972933, bid: 24.91, ask: 25.0
+2023-04-27 00:52:52,939 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 00:52:54,141 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527974143, bid: 24.91, ask: 25.0
+2023-04-27 00:52:54,143 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527974143, bid: 24.91, ask: 25.0
+2023-04-27 00:52:54,143 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 00:52:55,350 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682527975352, bid: 24.91, ask: 25.0
+2023-04-27 00:52:55,353 - trading_system - INFO - TICK UNIMYR.luno - date: 1682527975352, bid: 24.91, ask: 25.0
+2023-04-27 00:52:55,353 - trading_system - INFO - spread_pct: 0.3606491685033054
+2023-04-27 11:07:44,337 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564864048, bid: 24.5, ask: 24.59
+2023-04-27 11:07:44,340 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564864048, bid: 24.5, ask: 24.59
+2023-04-27 11:07:44,340 - trading_system - INFO - spread_pct: 0.3666734569158682
+2023-04-27 11:07:45,859 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564865585, bid: 24.5, ask: 24.59
+2023-04-27 11:07:45,862 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564865585, bid: 24.5, ask: 24.59
+2023-04-27 11:07:45,862 - trading_system - INFO - spread_pct: 0.3666734569158682
+2023-04-27 11:07:47,214 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564867063, bid: 24.5, ask: 24.59
+2023-04-27 11:07:47,216 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564867063, bid: 24.5, ask: 24.59
+2023-04-27 11:07:47,216 - trading_system - INFO - spread_pct: 0.3666734569158682
+2023-04-27 11:08:05,100 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564884999, bid: 24.51, ask: 24.59
+2023-04-27 11:08:05,101 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564884999, bid: 24.51, ask: 24.59
+2023-04-27 11:08:05,101 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:06,311 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564886220, bid: 24.51, ask: 24.59
+2023-04-27 11:08:06,313 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564886220, bid: 24.51, ask: 24.59
+2023-04-27 11:08:06,314 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:07,541 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564887446, bid: 24.51, ask: 24.59
+2023-04-27 11:08:07,544 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564887446, bid: 24.51, ask: 24.59
+2023-04-27 11:08:07,545 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:08,759 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564888665, bid: 24.51, ask: 24.59
+2023-04-27 11:08:08,761 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564888665, bid: 24.51, ask: 24.59
+2023-04-27 11:08:08,761 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:09,974 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564889879, bid: 24.51, ask: 24.59
+2023-04-27 11:08:09,976 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564889879, bid: 24.51, ask: 24.59
+2023-04-27 11:08:09,977 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:11,322 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564891157, bid: 24.51, ask: 24.59
+2023-04-27 11:08:11,324 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564891157, bid: 24.51, ask: 24.59
+2023-04-27 11:08:11,325 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:08:12,647 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564892493, bid: 24.51, ask: 24.59
+2023-04-27 11:08:12,650 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564892493, bid: 24.51, ask: 24.59
+2023-04-27 11:08:12,650 - trading_system - INFO - spread_pct: 0.3258655804480582
+2023-04-27 11:09:47,832 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564987738, bid: 24.5, ask: 24.56
+2023-04-27 11:09:47,835 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:09:48,837 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564987738, bid: 24.5, ask: 24.56
+2023-04-27 11:09:50,068 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564989972, bid: 24.5, ask: 24.56
+2023-04-27 11:09:50,071 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:09:51,072 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564989972, bid: 24.5, ask: 24.56
+2023-04-27 11:09:52,288 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564992194, bid: 24.5, ask: 24.56
+2023-04-27 11:09:52,290 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:09:53,292 - trading_system - INFO - TICK UNIMYR.luno - date: 1682564992194, bid: 24.5, ask: 24.56
+2023-04-27 11:09:54,627 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682564994432, bid: 24.5, ask: 24.56
+2023-04-27 11:09:54,631 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:10:19,967 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565019869, bid: 24.5, ask: 24.56
+2023-04-27 11:10:19,969 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:10:20,971 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565019869, bid: 24.5, ask: 24.56
+2023-04-27 11:10:21,187 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565021089, bid: 24.5, ask: 24.56
+2023-04-27 11:10:21,189 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:10:22,191 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565021089, bid: 24.5, ask: 24.56
+2023-04-27 11:10:22,408 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565022311, bid: 24.5, ask: 24.56
+2023-04-27 11:10:22,412 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:10:23,413 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565022311, bid: 24.5, ask: 24.56
+2023-04-27 11:10:23,638 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565023535, bid: 24.5, ask: 24.56
+2023-04-27 11:10:23,640 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:10:24,642 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565023535, bid: 24.5, ask: 24.56
+2023-04-27 11:10:24,871 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565024771, bid: 24.5, ask: 24.56
+2023-04-27 11:10:24,875 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:11:40,509 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565100363, bid: 24.5, ask: 24.56
+2023-04-27 11:11:40,511 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565100363, bid: 24.5, ask: 24.56
+2023-04-27 11:11:40,511 - trading_system - INFO - spread_pct: 0.24459845087647256
+2023-04-27 11:11:41,735 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565101646, bid: 24.5, ask: 24.55
+2023-04-27 11:11:41,737 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565101646, bid: 24.5, ask: 24.55
+2023-04-27 11:11:41,737 - trading_system - INFO - spread_pct: 0.20387359836901414
+2023-04-27 11:11:42,950 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565102861, bid: 24.5, ask: 24.58
+2023-04-27 11:11:42,952 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565102861, bid: 24.5, ask: 24.58
+2023-04-27 11:11:42,953 - trading_system - INFO - spread_pct: 0.325998370008143
+2023-04-27 11:11:44,372 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565104200, bid: 24.5, ask: 24.55
+2023-04-27 11:11:44,373 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565104200, bid: 24.5, ask: 24.55
+2023-04-27 11:11:44,373 - trading_system - INFO - spread_pct: 0.20387359836901414
+2023-04-27 11:11:45,731 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565105500, bid: 24.5, ask: 24.57
+2023-04-27 11:11:45,732 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565105500, bid: 24.5, ask: 24.57
+2023-04-27 11:11:45,732 - trading_system - INFO - spread_pct: 0.28530670470756175
+2023-04-27 11:11:46,945 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565106854, bid: 24.5, ask: 24.57
+2023-04-27 11:11:46,948 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565106854, bid: 24.5, ask: 24.57
+2023-04-27 11:11:46,948 - trading_system - INFO - spread_pct: 0.28530670470756175
+2023-04-27 11:11:48,161 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565108070, bid: 24.5, ask: 24.54
+2023-04-27 11:11:48,165 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565108070, bid: 24.5, ask: 24.54
+2023-04-27 11:11:48,165 - trading_system - INFO - spread_pct: 0.1631321370309916
+2023-04-27 11:11:49,429 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565109332, bid: 24.5, ask: 24.58
+2023-04-27 11:11:49,431 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565109332, bid: 24.5, ask: 24.58
+2023-04-27 11:11:49,431 - trading_system - INFO - spread_pct: 0.325998370008143
+2023-04-27 11:11:50,647 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682565110557, bid: 24.5, ask: 24.55
+2023-04-27 11:11:50,649 - trading_system - INFO - TICK UNIMYR.luno - date: 1682565110557, bid: 24.5, ask: 24.55
+2023-04-27 11:11:50,649 - trading_system - INFO - spread_pct: 0.20387359836901414
+2023-04-27 11:57:03,304 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567823281, bid: 24.32, ask: 24.43
+2023-04-27 11:57:03,308 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567823281, bid: 24.32, ask: 24.43
+2023-04-27 11:57:03,308 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:04,241 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567824223, bid: 24.32, ask: 24.43
+2023-04-27 11:57:04,245 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567824223, bid: 24.32, ask: 24.43
+2023-04-27 11:57:04,246 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:05,241 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567825224, bid: 24.32, ask: 24.43
+2023-04-27 11:57:05,243 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567825224, bid: 24.32, ask: 24.43
+2023-04-27 11:57:05,244 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:06,437 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567826235, bid: 24.32, ask: 24.43
+2023-04-27 11:57:06,440 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567826235, bid: 24.32, ask: 24.43
+2023-04-27 11:57:06,440 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:07,252 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567827233, bid: 24.32, ask: 24.43
+2023-04-27 11:57:07,254 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567827233, bid: 24.32, ask: 24.43
+2023-04-27 11:57:07,255 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:08,251 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567828232, bid: 24.32, ask: 24.43
+2023-04-27 11:57:08,253 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567828232, bid: 24.32, ask: 24.43
+2023-04-27 11:57:08,253 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:09,253 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567829237, bid: 24.32, ask: 24.43
+2023-04-27 11:57:09,256 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567829237, bid: 24.32, ask: 24.43
+2023-04-27 11:57:09,256 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:10,258 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567830243, bid: 24.32, ask: 24.43
+2023-04-27 11:57:10,261 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567830243, bid: 24.32, ask: 24.43
+2023-04-27 11:57:10,261 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:11,270 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567831255, bid: 24.32, ask: 24.43
+2023-04-27 11:57:11,273 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567831255, bid: 24.32, ask: 24.43
+2023-04-27 11:57:11,274 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:12,270 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567832249, bid: 24.32, ask: 24.43
+2023-04-27 11:57:12,272 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567832249, bid: 24.32, ask: 24.43
+2023-04-27 11:57:12,273 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:13,266 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567833249, bid: 24.32, ask: 24.43
+2023-04-27 11:57:13,270 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567833249, bid: 24.32, ask: 24.43
+2023-04-27 11:57:13,270 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:14,262 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567834242, bid: 24.32, ask: 24.43
+2023-04-27 11:57:14,265 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567834242, bid: 24.32, ask: 24.43
+2023-04-27 11:57:14,265 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:15,271 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567835250, bid: 24.32, ask: 24.43
+2023-04-27 11:57:15,274 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567835250, bid: 24.32, ask: 24.43
+2023-04-27 11:57:15,274 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:16,280 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567836260, bid: 24.32, ask: 24.43
+2023-04-27 11:57:16,282 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567836260, bid: 24.32, ask: 24.43
+2023-04-27 11:57:16,282 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:17,286 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567837270, bid: 24.32, ask: 24.43
+2023-04-27 11:57:17,289 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567837270, bid: 24.32, ask: 24.43
+2023-04-27 11:57:17,289 - trading_system - INFO - spread_pct: 0.451282051282049
+2023-04-27 11:57:18,276 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1682567838260, bid: 24.32, ask: 24.43
+2023-04-27 11:57:18,279 - trading_system - INFO - TICK UNIMYR.luno - date: 1682567838260, bid: 24.32, ask: 24.43
+2023-04-27 11:57:18,279 - trading_system - INFO - spread_pct: 0.451282051282049

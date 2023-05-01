@@ -5,7 +5,7 @@ import importlib
 import logging
 import datetime
 import pathlib
-import socket
+import asyncio
 from logging.handlers import SysLogHandler
 
 from dotenv import dotenv_values
@@ -20,6 +20,7 @@ from src.events import (
     FillEvent,
 )
 from src.strategies.strategy_manager import StrategyManager
+from src.utils.alerts import Alerts
 
 
 class TradingSystem:
@@ -29,7 +30,10 @@ class TradingSystem:
         self.heartbeat = heartbeat
         self.setup_event_engine()
         self.load_strategies(strat_config_path)
+        # logging and alert systems
         self._logger = self.setup_logger()
+        self._alerts = Alerts(self._auth_config['telegram_chatid'], 
+                              self._auth_config['telegram_token'])
 
         # connect
         self.luno_tc = Luno(
@@ -42,6 +46,7 @@ class TradingSystem:
             mkt_event_engine=self.mkt_event_engine,
             action_event_engine=self.action_event_engine,
         ).get_trade_client()
+        
         self.setup_managers()
 
     def load_strategies(self, path):
@@ -99,14 +104,16 @@ class TradingSystem:
             primary_broker=self.luno_tc,
             strat_config=self.trading_config,
             instrument_list=self.instrument_list,
+            alerts_system=self._alerts,
         )
         self.strategy_manager.load_strategy(strat_dict=self.strat_dict)
 
-    def run(self):
+    async def run(self):
         """Stream data"""
         while True:
             try:
                 # 1) check outstanding orders every tick
+                start = time.perf_counter()
                 self.action_event_engine.put(CheckOrderStatusEvent())
 
                 # 2) get all tickers
@@ -114,12 +121,13 @@ class TradingSystem:
                     inst_code = inst.split(".")
                     sym, exc = inst_code[0], inst_code[1]
                     if exc == "luno":
-                        ticker = self.luno_tc.get_ticker(sym)
+                        ticker = await self.luno_tc.get_ticker(sym)
                         self._logger.info(ticker)
                     if exc == "kraken":
-                        ticker = self.kraken_tc.get_ticker(sym)
-
-                time.sleep(self.heartbeat)
+                        ticker = await self.kraken_tc.get_ticker(sym)
+                current = time.perf_counter()
+                
+                await asyncio.sleep(max(self.heartbeat - (current-start),0))
             except Exception as e:
                 print(e)
 
@@ -183,4 +191,4 @@ if __name__ == "__main__":
         strat_config_path="./src/configs/global_strategy_config.yaml",
         heartbeat=1,  # need to change to async
     )
-    trader.run()
+    asyncio.run(trader.run())

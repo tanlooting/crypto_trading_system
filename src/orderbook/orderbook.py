@@ -35,6 +35,11 @@ class orderBook:
         self.asks = {}
         self.url = f"wss://ws.luno.com/api/1/stream/{self.pair}"
         self.time_last_connection_attempt = None
+        self.bid_sorted = None
+        self.ask_sorted = None
+        self.vamp = None
+        self.mid_price = None
+        self.order_imbalance = None
 
     def check_backoff(self):
         """avoid rate limiting"""
@@ -78,7 +83,14 @@ class orderBook:
             if msg == '""':
                 continue
             await self.handle_message(msg)
-            print(self.print_aggregated_lob())
+            #print(self.print_aggregated_lob())
+            self.bid_sorted = self.consolidate(self.bids.values(), reverse=True)
+            self.ask_sorted = self.consolidate(self.asks.values())
+            
+            # calculate prices
+            self.calc_vamp(level = 10)
+            self.calc_midprice()
+            self.calc_order_imbalance(level = 10)
 
     async def handle_message(self, msg):
         """Call individual handlers depending on order type"""
@@ -153,9 +165,9 @@ class orderBook:
     def save_states(self):
         """save current orderbook"""
         ...
-
-    def print_aggregated_lob(self):
-        def consolidate(orders, reverse=False):
+        
+    @staticmethod
+    def consolidate(orders, reverse=False):
             price_map = defaultdict(Decimal)
             for order in orders:
                 price_map[order[0]] += order[1]
@@ -166,16 +178,51 @@ class orderBook:
 
             return sorted(rounded_list, key=lambda a: a[0], reverse=reverse)
 
+    def print_aggregated_lob(self,levels = 10):
+        
         return pd.DataFrame(
             {
-                "bids": consolidate(self.bids.values(), reverse=True)[:8],
-                "asks": consolidate(self.asks.values())[:8],
+                "bids": self.bid_sorted[:levels],
+                "asks": self.ask_sorted[:levels],
             }
         )
+    
+    def calc_vamp(self, levels= 10):
+        # BIDS
+        bid_orders = self.bid_sorted[:levels]
+        vwap_b = sum([order[0] * order[1] for order in bid_orders])/sum([order[1] for order in bid_orders])
+            
+        # ASKS
+        ask_orders = self.ask_sorted[:levels]
+        vwap_a = sum([order[0] * order[1] for order in ask_orders])/sum([order[1] for order in ask_orders])
+           
+        self.vamp = (vwap_b + vwap_a)/2
+    
+    def calc_midprice(self):
+        self.mid_price = (self.bid_sorted[0][0] + self.ask_sorted[0][0])/2
+
+        
+    def calc_microprice(self):
+        ...
+    
+    def calc_order_imbalance(self, levels = 10):
+        """Order imbalance
+        Q_b/ (Q_a + Q_b)
+        1 -> more likely to buy
+        0 -> more likely to sell
+
+        Args:
+            levels (int, optional): _description_. Defaults to 10.
+        """
+        bid_orders = self.bid_sorted[:levels]
+        ask_orders = self.ask_sorted[:levels]
+        q_b = sum([order[1] for order in bid_orders])
+        q_a = sum([order[1] for order in ask_orders])
+        self.order_imbalance = q_b/(q_a + q_b)
 
 
 if __name__ == "__main__":
 
     auth_config = dotenv_values(".env")
-    ob = orderBook(auth_config, "UNIMYR")
+    ob = orderBook(auth_config, "ETHMYR")
     asyncio.run(ob.run())

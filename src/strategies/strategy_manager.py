@@ -4,6 +4,7 @@ from src.brokerage.luno.TradeClient import TradeClient
 from src.orders.order_manager import OrderManager
 from src.positions.position_manager import PositionManager
 from src.events_engine import EventEngine
+from src.utils.alerts import Alerts
 from src.events import (
     TickEvent,
     OrderEvent,
@@ -24,11 +25,13 @@ class StrategyManager:
         primary_broker: TradeClient,
         strat_config: dict,
         instrument_list: dict,
+        alerts_system: Alerts,
     ):
         self._event_engine = event_engine
         self._broker = primary_broker
         self.strat_config = strat_config
         self.symbols_dict = instrument_list  # {exc: [sym]}
+        self._alerts = alerts_system
 
         self.strat_dict = {}
         self.sym_strategy_dict = {}  # symbol to strategy
@@ -109,6 +112,8 @@ class StrategyManager:
                 client_order_id=event.oid,
                 post_only=event.post_only,
             )
+        _logger.info(f"Order placed: {event}")
+        
         new_order = self._broker.get_order(event.oid)
         event.luno_oid = new_order["order_id"]
         self._event_engine.put(event)
@@ -128,6 +133,7 @@ class StrategyManager:
     def on_fill(self, event: FillEvent):
         if event.sid in self.strat_dict.keys():
             self.strat_dict[event.sid].on_fill(event)
+            _logger.info(f"Order filled: {event}")
         else:
             print("strategy ID doesn't exist. ")
 

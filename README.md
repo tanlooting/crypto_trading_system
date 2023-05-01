@@ -58,18 +58,19 @@ Before the system starts running, it does the following in sequence:
 ### Completed
 
 - add logging
+- add telegram
 
 ### On-going
 
-- execution classes
-  - change order execution to asynchronous functions
-- save trades
+- save trades (add database)
 - fix consistency in terms of `sym` and `code`
 - live performance metrics
 - risk manager - order check
+- if system exits, save states
 - add unit tests
 - performance profiling
 - GUI
+- change symbol into object (sym.exchange, sym.Symbol etc.)
 
 # Test
 

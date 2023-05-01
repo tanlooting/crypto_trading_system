@@ -1,11 +1,14 @@
+
+import time
+import datetime
+import logging
+import asyncio
+import pandas as pd
 from luno_python.client import Client
 from dateutil.relativedelta import relativedelta
-import datetime
-import pandas as pd
-import time
 from src.events import EventType, Exchange, TickEvent, OrderEvent
 from src.events_engine import EventEngine
-import logging
+
 
 _logger = logging.getLogger("trading_system")
 
@@ -163,13 +166,14 @@ class TradeClient:
         df = df.reset_index(drop=True)
         return df
 
-    def get_ticker(self, pair: str) -> dict:
+    async def get_ticker(self, pair: str) -> dict:
+        # ON AVERAGE THIS TAKES ABOUT 0.2s
+        
+        #start = time.perf_counter()
         ticker = self.client.get_ticker(pair=pair)
         ticker["timestamp"] = int(ticker["timestamp"])
         ticker["ask"] = float(ticker["ask"])
         ticker["bid"] = float(ticker["bid"])
-        # ticker["last_trade"] = float(ticker["last_trade"])
-        # ticker["rolling_24_hour_volume"] = float(ticker["rolling_24_hour_volume"])
         tick_event = TickEvent(
             sym=pair,
             exchange=Exchange.LUNO,
@@ -178,6 +182,9 @@ class TradeClient:
             bid_p=ticker["bid"],
             ask_p=ticker["ask"],
         )
+        # end = time.perf_counter()
+        # print(f"get ticker time:{end- start}")
+        _logger.info(f"Tick: {tick_event}")
         self._mkt_queue.put(tick_event)
         return tick_event
 
@@ -219,6 +226,7 @@ class TradeClient:
             timestamp=timestamp,
             ttl=ttl,
         )
+        _logger.info(f"Limit Order placed for {pair}: {type} {price}@{volume}")
 
     def place_market_order(
         self,
@@ -243,6 +251,7 @@ class TradeClient:
             timestamp,
             ttl,
         )
+        _logger.info(f"Market Order placed for {pair}: {type} {base_volume}")
 
     def generate_order_id(self):
         """generate a valid unique Client Order Id for posting orders"""

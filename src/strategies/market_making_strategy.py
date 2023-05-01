@@ -50,7 +50,7 @@ class marketMaking(StrategyBase):
         self.filled_order_delay = 0
         self.ping_pong_enabled = False
         self.min_tick_size = {}
-
+        self.ratio = 0
         # min_tick size needs to be added in, but after on_init happens.
         # self.min_tick_size[sym] = self.strategy_manager.sym_tick_size_dict[sym]
 
@@ -64,8 +64,10 @@ class marketMaking(StrategyBase):
         super().on_tick(event)
 
         # LOGIC HERE
+        
+        # do not quote is regime unsuitable
         if not self.regime_suitable():
-            return
+            return 
 
         # if order in place, and not stale. - not placing order
         # if no orders or haven't reached max - place order

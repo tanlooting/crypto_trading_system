@@ -43,7 +43,7 @@ class TradeClient:
     ) -> pd.DataFrame:
         ...
 
-    def get_ticker(self, pair: str) -> dict:
+    async def get_ticker(self, pair: str) -> dict:
         ticker = self.client.get_ticker_information(pair=pair)
         ask_p = float(ticker["a"][0][0])
         ask_v = float(ticker["a"][0][2])

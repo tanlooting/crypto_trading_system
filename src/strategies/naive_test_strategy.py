@@ -8,6 +8,8 @@
     4. At 20th tick, cancel all orders (useful for MM/ time-based orders)
 """
 import logging
+import time
+import numpy as np
 from src.strategies.strategy_base import StrategyBase
 from src.events import OrderEvent, OrderType, TickEvent, OrderDir, Exchange
 from termcolor import cprint, colored
@@ -21,18 +23,21 @@ class naiveTest(StrategyBase):
         super(naiveTest, self).__init__()
         self.counter = 0
         self.spread_pct = 0
+        self.prev_time = time.time()
 
     def on_tick(self, event: TickEvent):
-
+        
         self.counter += 1
         mid_p = (event.ask_p + event.bid_p) / 2
         self.spread_pct = (event.ask_p - event.bid_p) / mid_p
 
-        print(f"{event}, spread_pct = {self.spread_pct *100}%")
+        print(f"{event}, spread_pct = {self.spread_pct *100}%, {self.counter}")
         _logger.info(f"spread_pct: {self.spread_pct * 100}")
 
         super().on_tick(event)
-
+        self.current_time = time.time()
+        print(f"actual time{self.current_time - self.prev_time}")
+        self.prev_time = self.current_time
         # if self.counter == 5:
 
         #     # test placing a market order:

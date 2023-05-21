@@ -124,9 +124,9 @@ class TradeClient:
                 )
                 * 1000
             )  # convert to ms
-            print(
-                int(datetime.datetime.timestamp(datetime.datetime.now()) * 1000), since
-            )
+            # print(
+            #     int(datetime.datetime.timestamp(datetime.datetime.now()) * 1000), since
+            # )
             ohlcv_dict = self.client.get_candles(granularity, pair, since)["candles"]
             ohlcv = pd.DataFrame(ohlcv_dict)
             ohlcv.columns = ["date", "open", "close", "high", "low", "volume"]
@@ -156,6 +156,7 @@ class TradeClient:
             )
             ohlcv.columns = ["date", "open", "close", "high", "low", "volume"]
             ohlcv["date"] = pd.to_datetime(ohlcv["date"], unit="ms")
+            # ohlcv["date"] = (ohlcv["date"]//1000).apply(datetime.datetime.fromtimestamp)
             ohlcv[numeric_columns] = ohlcv[numeric_columns].apply(
                 pd.to_numeric, errors="coerce"
             )
@@ -280,5 +281,5 @@ class TradeClient:
         yymmdd = date.split("-")
         if len(yymmdd) != 3:
             raise ValueError("Incorrect date format provided. Please use YYYY-MM-DD")
-        dt = datetime.datetime(int(yymmdd[0]), int(yymmdd[1]), int(yymmdd[2]))
+        dt = datetime.datetime(int(yymmdd[0]), int(yymmdd[1]), int(yymmdd[2]), tzinfo = datetime.timezone.utc)
         return int(datetime.datetime.timestamp(dt) * 1000)

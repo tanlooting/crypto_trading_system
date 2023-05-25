@@ -31,41 +31,39 @@ class naiveTest(StrategyBase):
         mid_p = (event.ask_p + event.bid_p) / 2
         self.spread_pct = (event.ask_p - event.bid_p) / mid_p
 
-        print(f"{event}, spread_pct = {self.spread_pct *100}%, {self.counter}")
-        _logger.info(f"spread_pct: {self.spread_pct * 100}")
+        #print(f"{event}, spread_pct = {self.spread_pct *100}%, {self.counter}")
 
         super().on_tick(event)
         self.current_time = time.time()
-        print(f"actual time{self.current_time - self.prev_time}")
         self.prev_time = self.current_time
-        # if self.counter == 5:
+        if self.counter == 5:
 
-        #     # test placing a market order:
-        #     o = OrderEvent(
-        #         sid=self.id,
-        #         sym=event.sym,
-        #         ordertype=OrderType.MKT,
-        #         direction=OrderDir.BID,  # buy order
-        #         price=mid_p,
-        #         base_volume=0.12,
-        #     )
-
-        #     self.place_order(o)
-        if (self.counter == 5) | (self.counter == 12):
-            print("place order")
-            # test placing a limit order that is far away
+            # test placing a market order:
             o = OrderEvent(
                 sid=self.id,
                 sym=event.sym,
-                ordertype=OrderType.LMT,
+                ordertype=OrderType.MKT,
                 direction=OrderDir.BID,  # buy order
-                price=round(mid_p - 15, 2),
-                base_volume=0.1,
+                price=mid_p,
+                base_volume=0.12,
             )
-            # self.place_order(o)
 
-        if self.counter == 20:
-            self.cancel_all()
+            self.place_order(o)
+            
+        # if (self.counter == 10) | (self.counter == 15):
+        #     # test placing a limit order that is far away
+        #     o = OrderEvent(
+        #         sid=self.id,
+        #         sym=event.sym,
+        #         ordertype=OrderType.LMT,
+        #         direction=OrderDir.BID,  # buy order
+        #         price=round(mid_p - 15, 2),
+        #         base_volume=0.1,
+        #     )
+        #     self.place_order(o)
+
+        # if self.counter == 20:
+        #     self.cancel_all()
 
         print(f"Current standing orders: {self.get_order_ids()}")
         print(f"Current cancelled orders: {self.get_cancelled_order_ids()}")

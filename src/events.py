@@ -6,6 +6,7 @@ Other potential events: Position, Bar, WarmUp, EndOfDay, EndofAlgo,
 """
 from enum import Enum
 import time
+import copy
 
 
 class Exchange(Enum):
@@ -100,11 +101,17 @@ class OrderEvent:
         # (i.e. trading BTCMYR, all units are determine in BTC. Base vol of 1 == 1 BTC).
         # For MKT buy orders, LUNO requires counter volume to be provided instead. Hence we calculate them here.
         if (self.ordertype == OrderType.MKT) & (self.direction == OrderDir.BID):
-            self.counter_volume = self.base_volume * self.price
+            self.counter_volume = round(self.base_volume * self.price,2)
 
     def __str__(self):
         return f"ORDER {self.sym}.{self.sid} - ts: {self.order_time}, luno_oid: {self.luno_oid},client_oid: {self.oid}, type: {self.ordertype}, dir: {self.direction.value}, price: {self.price}, unit: {self.base_volume}"
 
+    def _dict(self):
+        dic = copy.deepcopy(self.__dict__)
+        dic['type'] = self.type.value
+        dic['ordertype'] = self.ordertype.value
+        dic['direction'] = self.direction.value
+        return dic
 
 class FillEvent:
     def __init__(
@@ -134,6 +141,11 @@ class FillEvent:
     def __str__(self):
         return f"FILL {self.sym}.{self.sid} - ts: {self.complete_ts}, oid: {self.oid}, exec_price: {self.exec_price}, base_vol: {self.base_volume}, counter_vol: {self.counter_volume} "
 
+    def _dict(self):
+        dic = copy.deepcopy(self.__dict__)
+        dic['type'] = self.type.value
+        dic['dir'] = self.dir.value
+        return dic
 
 class CheckOrderStatusEvent:
     def __init__(self):

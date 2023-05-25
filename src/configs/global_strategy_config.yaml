@@ -1,19 +1,23 @@
 # this identifies which strategy to run and specific
-
 strategy:
-  latencyArbitrage:
-    active: false
-    capital: 0
-    instruments:
-      - "ETHMYR.luno"
-      - "ETHUSD.kraken"
+  # latencyArbitrage:
+  #   active: false
+  #   capital: 0
+  #   instruments:
+  #     - "ETHMYR.luno"
+  #     - "ETHUSD.kraken"
 
-  # market making
-  marketMaking:
-    active: false
-    capital: 10
-    instruments:
-      - "UNIMYR.luno"
+  # # market making
+  # marketMaking:
+  #   active: false
+  #   capital: 10
+  #   instruments:
+  #     - "UNIMYR.luno"
+  #   params:
+  #     base_inventory: 0.01 # unit of instrument
+  #     counter_inventory: 10  # dollar value of cash e.g. 
+  #     min_tick_size: 0.01
+
 
   # test streaming/ order placing logic
   naiveTest:
@@ -21,7 +25,7 @@ strategy:
     capital: 10
     instruments:
       - "UNIMYR.luno"
-
+    params:
   # add params here.
 
 min_tick_size:
@@ -32,3 +36,7 @@ min_tick_size:
   "ADAMYR.luno": 0.0001
   "SOLMYR.luno": 0.01
   "LINKMYR.luno": 0.01
+
+
+# global_risk_configs:
+#   "max_position": 

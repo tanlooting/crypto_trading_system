@@ -21,15 +21,13 @@ from src.events import (
     EventType,
 )
 
-
 _logger = logging.getLogger("trading_system")
-
 
 class marketMaking(StrategyBase):
     def __init__(self):
         """ """
         super(marketMaking, self).__init__()
-        self.counter = 0
+        self.first_tick = True
         self.spread_pct = 0
 
         self.mid_price = list()
@@ -49,24 +47,34 @@ class marketMaking(StrategyBase):
 
         self.filled_order_delay = 0
         self.ping_pong_enabled = False
-        self.min_tick_size = {}
-        self.ratio = 0
-        # min_tick size needs to be added in, but after on_init happens.
-        # self.min_tick_size[sym] = self.strategy_manager.sym_tick_size_dict[sym]
+        # PARAMS (initialized from the start)
+        self.min_tick_size = None
+        self.base_init_inventory = None
+        self.counter_inventory = None
+        self.target_ratio = 0
+        self.current_ratio = 0
 
     def on_tick(self, event: TickEvent):
-
-        self.counter += 1
-        # get tick
+        super().on_tick(event)
+        # get tick, this can be replaced with other microprice for better edge
+        # quote based on micro-price
         mid_p = (event.ask_p + event.bid_p) / 2
         self.spread_pct = (event.ask_p - event.bid_p) / mid_p
         print(f"{event}, spread_pct = {self.spread_pct *100}%")
-        super().on_tick(event)
+        
+        # init anything that requires first tick.
+        if self.first_tick:
+            self.target_ratio = self.base_init_inventory * mid_p/self.counter_inventory
+            self.current_ratio = self.target_ratio
+            self.first_tick = False
+        else:
+            self.update_inventory(mid_p, event.sym)
 
-        # LOGIC HERE
+        # LOGIC STARTS HERE
         
         # do not quote is regime unsuitable
         if not self.regime_suitable():
+            self.cancel_all()
             return 
 
         # if order in place, and not stale. - not placing order
@@ -87,6 +95,7 @@ class marketMaking(StrategyBase):
         print(
             f"Current cash: {self.position_manager.get_cash()},Total PnL: {self.position_manager.get_total_pnl()}, Positions: {self.position_manager.positions}"
         )
+        
 
     def reached_max_orders(self, side):
         if side == "BID":
@@ -109,7 +118,8 @@ class marketMaking(StrategyBase):
         ...
 
     def cal_top_bid_ask(self, event: TickEvent):
-        min_tick = self.min_tick_size[event.code]
+        """calculate L1 spreads"""
+        min_tick = self.min_tick_size
         if (event.ask_p - event.bid_p) == min_tick:
             return event.bid_p, event.ask_p
         elif (event.ask_p - event.bid_p) == (2 * min_tick):
@@ -119,12 +129,13 @@ class marketMaking(StrategyBase):
             return event.bid_p + min_tick, event.ask_p - min_tick
 
     def cal_order_size(self):
-        """Not implemented yet"""
+        """Not implemented yet - calculate order size to place based on inventory"""
         ...
 
-    def get_inventory(self):
-        """Not implemented yet"""
-        ...
+    def update_inventory(self, price, symbol):
+        self.counter_inventory = self.position_manager.cash
+        base_current_inventory = self.base_init_inventory + self.position_manager[symbol] * price
+        self.current_ratio = base_current_inventory / self.counter_inventory
 
     def get_order_ids(self):
         order_ids = []

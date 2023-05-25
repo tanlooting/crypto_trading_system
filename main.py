@@ -21,6 +21,7 @@ from src.events import (
 )
 from src.strategies.strategy_manager import StrategyManager
 from src.utils.alerts import Alerts
+from src.utils.db_service import DBService
 
 
 class TradingSystem:
@@ -34,7 +35,9 @@ class TradingSystem:
         self._logger = self.setup_logger()
         self._alerts = Alerts(self._auth_config['telegram_chatid'], 
                               self._auth_config['telegram_token'])
-
+        # database
+        self._dbservice = self.setup_database("cryptotradingsystem")
+        
         # connect
         self.luno_tc = Luno(
             auth_config=self._auth_config,
@@ -105,6 +108,7 @@ class TradingSystem:
             strat_config=self.trading_config,
             instrument_list=self.instrument_list,
             alerts_system=self._alerts,
+            database = self._dbservice,
         )
         self.strategy_manager.load_strategy(strat_dict=self.strat_dict)
 
@@ -122,7 +126,6 @@ class TradingSystem:
                     sym, exc = inst_code[0], inst_code[1]
                     if exc == "luno":
                         ticker = await self.luno_tc.get_ticker(sym)
-                        self._logger.info(ticker)
                     if exc == "kraken":
                         ticker = await self.kraken_tc.get_ticker(sym)
                 current = time.perf_counter()
@@ -184,6 +187,12 @@ class TradingSystem:
         _logger.addHandler(sysloghandler)
 
         return _logger
+
+    def setup_database(self,db_name):
+        db_client = DBService(self._auth_config, self._logger)
+        db_client.connect()
+        db_client.ping()
+        return db_client.get_database(db_name)
 
 
 if __name__ == "__main__":

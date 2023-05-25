@@ -4,13 +4,15 @@ from src.orders.order_manager import OrderManager
 from src.positions.position_manager import PositionManager
 from src.events import TickEvent, OrderEvent, CheckOrderStatusEvent, FillEvent
 import copy
+import logging
 
+_logger = logging.getLogger("trading_system")
 
 class StrategyBase(ABC):
     def __init__(self):
         self.name = ""
         self.id = None
-        self.symbols: list[str] = None
+        self.symbols: list[str] = None # ["ETHMYR.luno"]
         self.strategy_manager: StrategyManager = None
         self.order_manager: OrderManager = OrderManager(self.name)
         self.position_manager: PositionManager = PositionManager(self.name)
@@ -92,11 +94,12 @@ class StrategyBase(ABC):
             if order.oid == oid:
                 self.strategy_manager._broker.cancel_order(order.luno_oid)
                 self.order_manager.on_cancel(order)
-
+                self.strategy_manager._alerts.send_telegram_message(f"Canceling order: {order}")
+                _logger.info(f'Order cancelled: {order}')
     def cancel_all(self):
 
         for order in list(self.order_manager.standing_order_set):  # use a copy
             self.strategy_manager._broker.cancel_order(order.luno_oid)
             self.order_manager.on_cancel(order)
-
-        print(f"Canceled all orders.")
+            self.strategy_manager._alerts.send_telegram_message(f"Canceling order: {order}")
+            _logger.info(f'Order cancelled: {order}')

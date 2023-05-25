@@ -5,6 +5,7 @@ from src.orders.order_manager import OrderManager
 from src.positions.position_manager import PositionManager
 from src.events_engine import EventEngine
 from src.utils.alerts import Alerts
+from src.utils.db_service import DBService
 from src.events import (
     TickEvent,
     OrderEvent,
@@ -26,12 +27,14 @@ class StrategyManager:
         strat_config: dict,
         instrument_list: dict,
         alerts_system: Alerts,
+        database
     ):
         self._event_engine = event_engine
         self._broker = primary_broker
         self.strat_config = strat_config
         self.symbols_dict = instrument_list  # {exc: [sym]}
         self._alerts = alerts_system
+        self._database = database
 
         self.strat_dict = {}
         self.sym_strategy_dict = {}  # symbol to strategy
@@ -51,6 +54,7 @@ class StrategyManager:
                 v.active = self.strat_config["strategy"][k]["active"]
                 v.set_capital(self.strat_config["strategy"][k]["capital"])
                 v.set_symbols(self.symbols_dict[k])  # list
+                v.set_params(self.strat_config["strategy"][k]['params'])
                 if v.active:
                     for sym in v.symbols:
                         self.active_symbols.append(sym)
@@ -112,7 +116,6 @@ class StrategyManager:
                 client_order_id=event.oid,
                 post_only=event.post_only,
             )
-        _logger.info(f"Order placed: {event}")
         
         new_order = self._broker.get_order(event.oid)
         event.luno_oid = new_order["order_id"]
@@ -121,6 +124,8 @@ class StrategyManager:
     def on_new_order(self, event: OrderEvent):
         if event.sid in self.strat_dict.keys():
             self.strat_dict[event.sid].on_new_order(event)
+            _logger.info(f"Order placed: {event}")
+            self._alerts.send_telegram_message(f"Order placed: {event}")
         else:
             print("strategy ID doesn't exist. ")
 
@@ -134,6 +139,9 @@ class StrategyManager:
         if event.sid in self.strat_dict.keys():
             self.strat_dict[event.sid].on_fill(event)
             _logger.info(f"Order filled: {event}")
+            self._database['trades'].insert_one(event._dict())
+            self._alerts.send_telegram_message(f"Order filled: {event}")
+            
         else:
             print("strategy ID doesn't exist. ")
 

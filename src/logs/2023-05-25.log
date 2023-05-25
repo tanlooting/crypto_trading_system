@@ -1,0 +1,62 @@
+2023-05-25 09:31:39,055 - trading_system - INFO - Successful connection to database!
+2023-05-25 09:39:25,405 - trading_system - INFO - Successful connection to database!
+2023-05-25 09:40:22,164 - trading_system - INFO - Successful connection to database!
+2023-05-25 09:42:14,989 - trading_system - INFO - Successful connection to database!
+2023-05-25 09:42:17,354 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 09:42:22,120 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684978941585.4722, luno_oid: BXBQEGTFUWFAEX4,client_oid: 8db94e11-6de4-4665-bd08-a69177ad23bb, type: OrderType.MKT, dir: BID, price: 22.674999999999997, unit: 0.12
+2023-05-25 09:42:23,206 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684978941959, oid: 8db94e11-6de4-4665-bd08-a69177ad23bb, exec_price: 22.7, base_vol: 0.11, counter_vol: 2.497 
+2023-05-25 09:42:23,210 - trading_system - ERROR - Event engine exception: cannot encode object: <EventType.FILL: 2>, of type: <enum 'EventType'>
+2023-05-25 09:52:47,109 - trading_system - INFO - Successful connection to database!
+2023-05-25 09:52:47,552 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 09:52:52,414 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684979571834.2148, luno_oid: BXG6WPTF6AV2EH2,client_oid: 09c2f127-25a1-45e5-a838-5ff11618b917, type: OrderType.MKT, dir: BID, price: 22.705, unit: 0.12
+2023-05-25 09:52:53,522 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684979572337, oid: 09c2f127-25a1-45e5-a838-5ff11618b917, exec_price: 22.73, base_vol: 0.11, counter_vol: 2.5003 
+2023-05-25 09:52:53,525 - trading_system - ERROR - Event engine exception: 'int' object has no attribute 'value'
+2023-05-25 10:07:20,757 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:07:21,074 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:07:25,822 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684980445293.256, luno_oid: BXNDX9NK8HHWSFF,client_oid: 6c4935b5-68bc-4383-a899-6641436e9eaa, type: OrderType.MKT, dir: BID, price: 22.73, unit: 0.12
+2023-05-25 10:07:26,919 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684980445787, oid: 6c4935b5-68bc-4383-a899-6641436e9eaa, exec_price: 22.75, base_vol: 0.12, counter_vol: 2.73 
+2023-05-25 10:07:26,922 - trading_system - ERROR - Event engine exception: 'int' object has no attribute 'value'
+2023-05-25 10:09:15,972 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:09:16,698 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:09:21,526 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684980560932.3079, luno_oid: BXBUS2NMZ8CXK23,client_oid: 78006d7e-3fe7-4f1b-8f78-82ff9197c7c7, type: OrderType.MKT, dir: BID, price: 22.755000000000003, unit: 0.12
+2023-05-25 10:09:22,690 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684980561484, oid: 78006d7e-3fe7-4f1b-8f78-82ff9197c7c7, exec_price: 22.779999999999998, base_vol: 0.11, counter_vol: 2.5058 
+2023-05-25 10:09:22,693 - trading_system - ERROR - Event engine exception: 'int' object has no attribute 'value'
+2023-05-25 10:12:47,115 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:12:47,939 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:12:52,756 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684980772182.6401, luno_oid: BXJM9RKAA84NY4H,client_oid: 1f82d86a-0f8b-42f8-95e2-c5f348d7d36a, type: OrderType.MKT, dir: BID, price: 22.755, unit: 0.12
+2023-05-25 10:12:54,622 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684980772714, oid: 1f82d86a-0f8b-42f8-95e2-c5f348d7d36a, exec_price: 22.77, base_vol: 0.11, counter_vol: 2.5047 
+2023-05-25 10:12:54,625 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'name'
+2023-05-25 10:12:54,628 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684980772714, oid: 1f82d86a-0f8b-42f8-95e2-c5f348d7d36a, exec_price: 22.77, base_vol: 0.11, counter_vol: 2.5047 
+2023-05-25 10:12:54,629 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'name'
+2023-05-25 10:16:30,576 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:16:31,010 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:16:35,773 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684980995248.513, luno_oid: BXMQ5G4EAQKP56R,client_oid: 68e0ee65-94e8-4e66-b7bd-66dad6b37843, type: OrderType.MKT, dir: BID, price: 22.77, unit: 0.12
+2023-05-25 10:16:35,775 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'value'
+2023-05-25 10:16:36,258 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684980995769, oid: 68e0ee65-94e8-4e66-b7bd-66dad6b37843, exec_price: 22.779999999999998, base_vol: 0.11, counter_vol: 2.5058 
+2023-05-25 10:16:36,261 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'name'
+2023-05-25 10:17:18,696 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:17:19,719 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:17:24,472 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684981043948.284, luno_oid: BXEYEHQGJYUWWTY,client_oid: 6778e925-a311-44f9-867e-bbe4206b65c6, type: OrderType.MKT, dir: BID, price: 22.759999999999998, unit: 0.12
+2023-05-25 10:17:24,477 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'value'
+2023-05-25 10:17:25,018 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981044492, oid: 6778e925-a311-44f9-867e-bbe4206b65c6, exec_price: 22.77, base_vol: 0.11, counter_vol: 2.5047 
+2023-05-25 10:17:25,020 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'name'
+2023-05-25 10:17:47,831 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:17:48,268 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:17:53,089 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684981072504.7468, luno_oid: BXNUC6FVKXGAEMP,client_oid: 780acd80-9363-45d0-bd1c-5bbf7217f562, type: OrderType.MKT, dir: BID, price: 22.775, unit: 0.12
+2023-05-25 10:17:53,092 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'value'
+2023-05-25 10:17:53,590 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981073053, oid: 780acd80-9363-45d0-bd1c-5bbf7217f562, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-25 10:17:53,592 - trading_system - ERROR - Event engine exception: 'str' object has no attribute 'value'
+2023-05-25 10:21:39,819 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:21:40,581 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:21:46,266 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684981305733.305, luno_oid: BXCWA34Q3CHWBQG,client_oid: c9368612-c4a6-486f-8d3e-ed47a852270e, type: OrderType.MKT, dir: BID, price: 22.78, unit: 0.12
+2023-05-25 10:21:47,578 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981306275, oid: c9368612-c4a6-486f-8d3e-ed47a852270e, exec_price: 22.779999999999998, base_vol: 0.11, counter_vol: 2.5058 
+2023-05-25 10:21:47,579 - trading_system - ERROR - Event engine exception: 'int' object has no attribute 'value'
+2023-05-25 10:28:14,419 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:28:14,838 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:28:19,671 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684981699090.504, luno_oid: BXDN9JFEF8EHKEQ,client_oid: b2f7cbd8-aa02-46d6-8123-f5e0464bda21, type: OrderType.MKT, dir: BID, price: 22.77, unit: 0.12
+2023-05-25 10:28:22,053 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981699671, oid: b2f7cbd8-aa02-46d6-8123-f5e0464bda21, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-25 10:28:22,786 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981699671, oid: b2f7cbd8-aa02-46d6-8123-f5e0464bda21, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-25 10:31:45,165 - trading_system - INFO - Successful connection to database!
+2023-05-25 10:31:45,604 - trading_system - INFO - Pinged your deployment. You successfully connected to MongoDB!
+2023-05-25 10:31:50,878 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684981910319.459, luno_oid: BXDAWPHG4JD7Q5S,client_oid: 42e7a4f9-0201-4368-ac87-6bc0f5eeabe6, type: OrderType.MKT, dir: BID, price: 22.765, unit: 0.12
+2023-05-25 10:31:52,036 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684981910910, oid: 42e7a4f9-0201-4368-ac87-6bc0f5eeabe6, exec_price: 22.779999999999998, base_vol: 0.11, counter_vol: 2.5058 

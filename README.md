@@ -1,6 +1,6 @@
 # Trading System
 
-WIP (last updated: 22 Mar 2023)
+WIP (last updated: 25 May 2023)
 
 This repository provides a basic event-driven trading system for trading on Luno. It can be adapted for other exchanges by adding similar brokerage code structure in the `brokerage` folder or use an existing library like `ccxt`. A wrapper will still be needed to handle events generation and consumption.
 
@@ -59,14 +59,13 @@ Before the system starts running, it does the following in sequence:
 
 - add logging
 - add telegram
+- add database (saving completed trades)
 
 ### On-going
 
-- save trades (add database)
-- fix consistency in terms of `sym` and `code`
-- live performance metrics
 - risk manager - order check
 - if system exits, save states
+- fix consistency in terms of `sym` and `code`
 - add unit tests
 - performance profiling
 - GUI

@@ -3,6 +3,7 @@ import logging
 from threading import Thread
 from collections import defaultdict
 
+_logger = logging.getLogger("trading_system")
 
 class EventEngine:
     def __init__(self):
@@ -23,6 +24,7 @@ class EventEngine:
                 pass
             except Exception as e:
                 # log event
+                _logger.error(f"Event engine exception: {e}")
                 pass
 
     def start(self, timer=True):

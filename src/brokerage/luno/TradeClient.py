@@ -185,7 +185,7 @@ class TradeClient:
         )
         # end = time.perf_counter()
         # print(f"get ticker time:{end- start}")
-        _logger.info(f"Tick: {tick_event}")
+        #_logger.info(f"Tick: {tick_event}")
         self._mkt_queue.put(tick_event)
         return tick_event
 
@@ -227,7 +227,6 @@ class TradeClient:
             timestamp=timestamp,
             ttl=ttl,
         )
-        _logger.info(f"Limit Order placed for {pair}: {type} {price}@{volume}")
 
     def place_market_order(
         self,
@@ -252,7 +251,6 @@ class TradeClient:
             timestamp,
             ttl,
         )
-        _logger.info(f"Market Order placed for {pair}: {type} {base_volume}")
 
     def generate_order_id(self):
         """generate a valid unique Client Order Id for posting orders"""

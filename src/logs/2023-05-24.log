@@ -1,0 +1,483 @@
+2023-05-24 21:42:23,197 - trading_system - INFO - Successful connection to database!
+2023-05-24 21:42:40,619 - trading_system - INFO - Successful connection to database!
+2023-05-24 21:42:41,151 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935761032, bid: 22.71, ask: 22.79
+2023-05-24 21:42:41,153 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935761032, bid: 22.71, ask: 22.79
+2023-05-24 21:42:41,154 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:42,045 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935761754, bid: 22.71, ask: 22.79
+2023-05-24 21:42:42,047 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935761754, bid: 22.71, ask: 22.79
+2023-05-24 21:42:42,047 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:42,865 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935762761, bid: 22.71, ask: 22.79
+2023-05-24 21:42:42,868 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935762761, bid: 22.71, ask: 22.79
+2023-05-24 21:42:42,868 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:43,872 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935763766, bid: 22.71, ask: 22.79
+2023-05-24 21:42:43,875 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935763766, bid: 22.71, ask: 22.79
+2023-05-24 21:42:43,875 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:44,883 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935764792, bid: 22.71, ask: 22.79
+2023-05-24 21:42:44,885 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935764792, bid: 22.71, ask: 22.79
+2023-05-24 21:42:44,885 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:45,231 - trading_system - INFO - Market Order placed for UNIMYR: BID None
+2023-05-24 21:42:45,233 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935764887.382, luno_oid: None,client_oid: b7f23736-1a1c-4a81-aa13-d4f62eb1d78d, type: OrderType.MKT, dir: BID, price: 22.75, unit: 0.12
+2023-05-24 21:42:45,570 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935764887.382, luno_oid: BX2BRB3EBK6ZAP,client_oid: b7f23736-1a1c-4a81-aa13-d4f62eb1d78d, type: OrderType.MKT, dir: BID, price: 22.75, unit: 0.12
+2023-05-24 21:42:45,989 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935765760, bid: 22.71, ask: 22.79
+2023-05-24 21:42:45,992 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935765760, bid: 22.71, ask: 22.79
+2023-05-24 21:42:45,992 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:47,016 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935766915, bid: 22.71, ask: 22.79
+2023-05-24 21:42:47,019 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935766915, bid: 22.71, ask: 22.79
+2023-05-24 21:42:47,019 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:47,913 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935767813, bid: 22.71, ask: 22.79
+2023-05-24 21:42:47,915 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935767813, bid: 22.71, ask: 22.79
+2023-05-24 21:42:47,915 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:48,329 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684935765128, oid: b7f23736-1a1c-4a81-aa13-d4f62eb1d78d, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-24 21:42:48,331 - trading_system - ERROR - Event engine exception: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-05-24 21:42:48,332 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684935765128, oid: b7f23736-1a1c-4a81-aa13-d4f62eb1d78d, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-24 21:42:48,333 - trading_system - ERROR - Event engine exception: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-05-24 21:42:48,334 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684935765128, oid: b7f23736-1a1c-4a81-aa13-d4f62eb1d78d, exec_price: 22.79, base_vol: 0.11, counter_vol: 2.5069 
+2023-05-24 21:42:48,334 - trading_system - ERROR - Event engine exception: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-05-24 21:42:49,900 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935769459, bid: 22.71, ask: 22.79
+2023-05-24 21:42:49,902 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935769459, bid: 22.71, ask: 22.79
+2023-05-24 21:42:49,902 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:50,174 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935770044, bid: 22.71, ask: 22.79
+2023-05-24 21:42:50,176 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935770044, bid: 22.71, ask: 22.79
+2023-05-24 21:42:50,177 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:50,596 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.75@0.1
+2023-05-24 21:42:50,598 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935770180.083, luno_oid: None,client_oid: 4667acd8-1c08-46c7-bd04-a7de91ab7ead, type: OrderType.LMT, dir: BID, price: 7.75, unit: 0.1
+2023-05-24 21:42:50,864 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935770180.083, luno_oid: BXCWMZ3KQCVFZC6,client_oid: 4667acd8-1c08-46c7-bd04-a7de91ab7ead, type: OrderType.LMT, dir: BID, price: 7.75, unit: 0.1
+2023-05-24 21:42:51,146 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935771042, bid: 22.71, ask: 22.79
+2023-05-24 21:42:51,148 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935771042, bid: 22.71, ask: 22.79
+2023-05-24 21:42:51,149 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:52,143 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935772043, bid: 22.71, ask: 22.79
+2023-05-24 21:42:52,144 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935772043, bid: 22.71, ask: 22.79
+2023-05-24 21:42:52,145 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:53,774 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935773676, bid: 22.71, ask: 22.79
+2023-05-24 21:42:53,777 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935773676, bid: 22.71, ask: 22.79
+2023-05-24 21:42:53,778 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:54,291 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935774033, bid: 22.71, ask: 22.79
+2023-05-24 21:42:54,294 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935774033, bid: 22.71, ask: 22.79
+2023-05-24 21:42:54,294 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:55,135 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935775032, bid: 22.71, ask: 22.79
+2023-05-24 21:42:55,136 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935775032, bid: 22.71, ask: 22.79
+2023-05-24 21:42:55,136 - trading_system - INFO - spread_pct: 0.3516483516483441
+2023-05-24 21:42:55,562 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.75@0.1
+2023-05-24 21:42:55,564 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935775137.719, luno_oid: None,client_oid: 49ad1009-d895-4a53-8915-95c314ffb0e6, type: OrderType.LMT, dir: BID, price: 7.75, unit: 0.1
+2023-05-24 21:42:56,570 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684935775137.719, luno_oid: BXGXXBKHKVFW2W2,client_oid: 49ad1009-d895-4a53-8915-95c314ffb0e6, type: OrderType.LMT, dir: BID, price: 7.75, unit: 0.1
+2023-05-24 21:42:56,645 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935776543, bid: 22.71, ask: 22.76
+2023-05-24 21:42:56,646 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935776543, bid: 22.71, ask: 22.76
+2023-05-24 21:42:56,646 - trading_system - INFO - spread_pct: 0.21992522542335918
+2023-05-24 21:42:57,148 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935777050, bid: 22.71, ask: 22.75
+2023-05-24 21:42:57,150 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935777050, bid: 22.71, ask: 22.75
+2023-05-24 21:42:57,150 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:42:58,129 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935778031, bid: 22.71, ask: 22.75
+2023-05-24 21:42:58,130 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935778031, bid: 22.71, ask: 22.75
+2023-05-24 21:42:58,130 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:42:59,152 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935779048, bid: 22.71, ask: 22.75
+2023-05-24 21:42:59,153 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935779048, bid: 22.71, ask: 22.75
+2023-05-24 21:42:59,154 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:00,198 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935780046, bid: 22.71, ask: 22.75
+2023-05-24 21:43:00,199 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935780046, bid: 22.71, ask: 22.75
+2023-05-24 21:43:00,200 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:01,313 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935781064, bid: 22.71, ask: 22.75
+2023-05-24 21:43:01,315 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935781064, bid: 22.71, ask: 22.75
+2023-05-24 21:43:01,315 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:02,188 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935782063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:02,191 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935782063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:02,192 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:03,205 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935783051, bid: 22.71, ask: 22.75
+2023-05-24 21:43:03,207 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935783051, bid: 22.71, ask: 22.75
+2023-05-24 21:43:03,207 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:04,160 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935784039, bid: 22.71, ask: 22.75
+2023-05-24 21:43:04,163 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935784039, bid: 22.71, ask: 22.75
+2023-05-24 21:43:04,163 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:05,166 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935785063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:05,168 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935785063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:05,168 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:06,458 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935786063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:06,460 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935786063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:06,460 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:07,163 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935787058, bid: 22.71, ask: 22.75
+2023-05-24 21:43:07,165 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935787058, bid: 22.71, ask: 22.75
+2023-05-24 21:43:07,165 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:08,172 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935788070, bid: 22.71, ask: 22.75
+2023-05-24 21:43:08,175 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935788070, bid: 22.71, ask: 22.75
+2023-05-24 21:43:08,175 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:09,360 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935789058, bid: 22.71, ask: 22.75
+2023-05-24 21:43:09,362 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935789058, bid: 22.71, ask: 22.75
+2023-05-24 21:43:09,363 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:10,166 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935790063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:10,167 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935790063, bid: 22.71, ask: 22.75
+2023-05-24 21:43:10,168 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:11,166 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935791057, bid: 22.71, ask: 22.75
+2023-05-24 21:43:11,167 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935791057, bid: 22.71, ask: 22.75
+2023-05-24 21:43:11,168 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:12,184 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935792083, bid: 22.71, ask: 22.75
+2023-05-24 21:43:12,185 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935792083, bid: 22.71, ask: 22.75
+2023-05-24 21:43:12,185 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:13,172 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935793081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:13,173 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935793081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:13,173 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:14,163 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935794068, bid: 22.71, ask: 22.75
+2023-05-24 21:43:14,165 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935794068, bid: 22.71, ask: 22.75
+2023-05-24 21:43:14,165 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:15,172 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935795053, bid: 22.71, ask: 22.75
+2023-05-24 21:43:15,174 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935795053, bid: 22.71, ask: 22.75
+2023-05-24 21:43:15,174 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:16,174 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935796081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:16,176 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935796081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:16,176 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:17,178 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935797077, bid: 22.71, ask: 22.75
+2023-05-24 21:43:17,179 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935797077, bid: 22.71, ask: 22.75
+2023-05-24 21:43:17,180 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:18,179 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935798091, bid: 22.71, ask: 22.75
+2023-05-24 21:43:18,180 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935798091, bid: 22.71, ask: 22.75
+2023-05-24 21:43:18,181 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:19,712 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935799075, bid: 22.71, ask: 22.75
+2023-05-24 21:43:19,715 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935799075, bid: 22.71, ask: 22.75
+2023-05-24 21:43:19,715 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:20,172 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935800081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:20,174 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935800081, bid: 22.71, ask: 22.75
+2023-05-24 21:43:20,174 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 21:43:21,185 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684935801080, bid: 22.71, ask: 22.75
+2023-05-24 21:43:21,188 - trading_system - INFO - TICK UNIMYR.luno - date: 1684935801080, bid: 22.71, ask: 22.75
+2023-05-24 21:43:21,188 - trading_system - INFO - spread_pct: 0.17597888253409213
+2023-05-24 22:06:55,730 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:06:56,104 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937215970, bid: 22.55, ask: 22.59
+2023-05-24 22:06:56,106 - trading_system - INFO - spread_pct: 0.1772264067345997
+2023-05-24 22:06:57,462 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937217360, bid: 22.55, ask: 22.58
+2023-05-24 22:06:57,465 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:06:57,961 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937217854, bid: 22.55, ask: 22.58
+2023-05-24 22:06:57,964 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:06:59,188 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937218872, bid: 22.55, ask: 22.58
+2023-05-24 22:06:59,190 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:06:59,981 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937219872, bid: 22.55, ask: 22.58
+2023-05-24 22:06:59,983 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:00,274 - trading_system - ERROR - Event engine exception: ('ErrInvalidValue', 'Invalid value provided for counter_volume')
+2023-05-24 22:07:00,975 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937220878, bid: 22.55, ask: 22.58
+2023-05-24 22:07:00,978 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:02,243 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937221883, bid: 22.55, ask: 22.58
+2023-05-24 22:07:02,246 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:03,016 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937222904, bid: 22.55, ask: 22.58
+2023-05-24 22:07:03,020 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:04,031 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937223897, bid: 22.55, ask: 22.58
+2023-05-24 22:07:04,033 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:04,973 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937224872, bid: 22.55, ask: 22.58
+2023-05-24 22:07:04,976 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:05,749 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.56@0.1
+2023-05-24 22:07:05,750 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937224978.6228, luno_oid: None,client_oid: a9cbf63b-8bc5-468c-869f-4a7a30c89e50, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:06,236 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937224978.6228, luno_oid: BXCJR49H76S32ZF,client_oid: a9cbf63b-8bc5-468c-869f-4a7a30c89e50, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:06,722 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937225991, bid: 22.55, ask: 22.58
+2023-05-24 22:07:06,724 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:07,153 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937227046, bid: 22.55, ask: 22.58
+2023-05-24 22:07:07,154 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:08,022 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937227921, bid: 22.55, ask: 22.58
+2023-05-24 22:07:08,023 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:08,999 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937228888, bid: 22.55, ask: 22.58
+2023-05-24 22:07:09,002 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:09,992 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937229895, bid: 22.55, ask: 22.58
+2023-05-24 22:07:09,997 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:10,516 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.56@0.1
+2023-05-24 22:07:10,519 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937229998.033, luno_oid: None,client_oid: 67eaeef1-bdac-4597-9e2d-063d2fd3175f, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:11,111 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937229998.033, luno_oid: BXMKXWZMJYQ575H,client_oid: 67eaeef1-bdac-4597-9e2d-063d2fd3175f, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:11,353 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937230900, bid: 22.55, ask: 22.58
+2023-05-24 22:07:11,381 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:12,037 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937231896, bid: 22.55, ask: 22.58
+2023-05-24 22:07:12,038 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:13,216 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937233069, bid: 22.55, ask: 22.58
+2023-05-24 22:07:13,218 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:14,180 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937233893, bid: 22.55, ask: 22.58
+2023-05-24 22:07:14,183 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:15,225 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937234906, bid: 22.55, ask: 22.58
+2023-05-24 22:07:15,227 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:16,043 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937235903, bid: 22.55, ask: 22.58
+2023-05-24 22:07:16,520 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937229998.033, luno_oid: BXMKXWZMJYQ575H,client_oid: 67eaeef1-bdac-4597-9e2d-063d2fd3175f, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:17,023 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937236913, bid: 22.55, ask: 22.58
+2023-05-24 22:07:17,988 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937237890, bid: 22.55, ask: 22.58
+2023-05-24 22:07:18,776 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937224978.6228, luno_oid: BXCJR49H76S32ZF,client_oid: a9cbf63b-8bc5-468c-869f-4a7a30c89e50, type: OrderType.LMT, dir: BID, price: 7.56, unit: 0.1
+2023-05-24 22:07:18,778 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:18,779 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:18,779 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:19,015 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937238914, bid: 22.55, ask: 22.58
+2023-05-24 22:07:19,017 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:20,052 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937239920, bid: 22.55, ask: 22.58
+2023-05-24 22:07:20,055 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:21,548 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937240925, bid: 22.55, ask: 22.58
+2023-05-24 22:07:21,552 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:22,002 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937241903, bid: 22.55, ask: 22.58
+2023-05-24 22:07:22,005 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:23,044 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937242937, bid: 22.55, ask: 22.58
+2023-05-24 22:07:23,046 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:24,210 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937243909, bid: 22.55, ask: 22.58
+2023-05-24 22:07:24,211 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:25,057 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937244956, bid: 22.55, ask: 22.58
+2023-05-24 22:07:25,058 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:26,032 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937245933, bid: 22.55, ask: 22.58
+2023-05-24 22:07:26,034 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:27,312 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937246965, bid: 22.55, ask: 22.58
+2023-05-24 22:07:27,314 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:28,076 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937247934, bid: 22.55, ask: 22.58
+2023-05-24 22:07:28,079 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:29,238 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937248927, bid: 22.55, ask: 22.58
+2023-05-24 22:07:29,240 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:30,732 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937250120, bid: 22.55, ask: 22.58
+2023-05-24 22:07:30,742 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:31,038 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937250934, bid: 22.55, ask: 22.58
+2023-05-24 22:07:31,042 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:32,015 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937251915, bid: 22.55, ask: 22.58
+2023-05-24 22:07:32,018 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:33,024 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937252919, bid: 22.55, ask: 22.58
+2023-05-24 22:07:33,027 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:34,037 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937253940, bid: 22.55, ask: 22.58
+2023-05-24 22:07:34,043 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:35,011 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937254912, bid: 22.55, ask: 22.58
+2023-05-24 22:07:35,014 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:36,060 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937255959, bid: 22.55, ask: 22.58
+2023-05-24 22:07:36,061 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:37,135 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937256946, bid: 22.55, ask: 22.58
+2023-05-24 22:07:37,136 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:38,035 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937257940, bid: 22.55, ask: 22.58
+2023-05-24 22:07:38,037 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:39,080 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937258959, bid: 22.55, ask: 22.58
+2023-05-24 22:07:39,084 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:40,526 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937259930, bid: 22.55, ask: 22.58
+2023-05-24 22:07:40,529 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:41,037 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937260934, bid: 22.55, ask: 22.58
+2023-05-24 22:07:41,040 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:42,082 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937261983, bid: 22.55, ask: 22.58
+2023-05-24 22:07:42,084 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:43,041 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937262945, bid: 22.55, ask: 22.58
+2023-05-24 22:07:43,043 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:44,106 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937263930, bid: 22.55, ask: 22.58
+2023-05-24 22:07:44,109 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:45,471 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937265377, bid: 22.55, ask: 22.58
+2023-05-24 22:07:45,474 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:46,288 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937265955, bid: 22.55, ask: 22.58
+2023-05-24 22:07:46,291 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:47,040 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937266946, bid: 22.55, ask: 22.58
+2023-05-24 22:07:47,042 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:48,063 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937267961, bid: 22.55, ask: 22.58
+2023-05-24 22:07:48,074 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:49,093 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937268949, bid: 22.55, ask: 22.58
+2023-05-24 22:07:49,096 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:50,047 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937269944, bid: 22.55, ask: 22.58
+2023-05-24 22:07:50,048 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:51,049 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937270958, bid: 22.55, ask: 22.58
+2023-05-24 22:07:51,051 - trading_system - INFO - spread_pct: 0.13294925769996713
+2023-05-24 22:07:52,060 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937271959, bid: 22.55, ask: 22.56
+2023-05-24 22:07:52,061 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:07:53,088 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937272966, bid: 22.55, ask: 22.56
+2023-05-24 22:07:53,091 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:07:54,062 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937273964, bid: 22.55, ask: 22.56
+2023-05-24 22:07:54,065 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:07:55,034 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937274944, bid: 22.55, ask: 22.56
+2023-05-24 22:07:55,035 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:07:56,042 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937275950, bid: 22.55, ask: 22.56
+2023-05-24 22:07:56,043 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:07:57,072 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937276970, bid: 22.55, ask: 22.56
+2023-05-24 22:07:57,073 - trading_system - INFO - spread_pct: 0.04433606739081361
+2023-05-24 22:12:06,189 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:12:06,529 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937526445, bid: 22.55, ask: 22.59
+2023-05-24 22:12:07,425 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937527334, bid: 22.55, ask: 22.59
+2023-05-24 22:12:08,425 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937528328, bid: 22.55, ask: 22.59
+2023-05-24 22:12:09,434 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937529331, bid: 22.55, ask: 22.59
+2023-05-24 22:12:11,348 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937530342, bid: 22.55, ask: 22.59
+2023-05-24 22:12:11,580 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937531489, bid: 22.55, ask: 22.59
+2023-05-24 22:12:12,283 - trading_system - INFO - Market Order placed for UNIMYR: BID None
+2023-05-24 22:12:12,285 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937531352.4329, luno_oid: None,client_oid: 5b6518d3-21e9-4f04-b375-6829e17c84b6, type: OrderType.MKT, dir: BID, price: 22.57, unit: 0.12
+2023-05-24 22:12:12,519 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937531352.4329, luno_oid: BXGV6JGCNT8B3PZ,client_oid: 5b6518d3-21e9-4f04-b375-6829e17c84b6, type: OrderType.MKT, dir: BID, price: 22.57, unit: 0.12
+2023-05-24 22:12:12,589 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937532498, bid: 22.55, ask: 22.59
+2023-05-24 22:12:13,586 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937533496, bid: 22.55, ask: 22.59
+2023-05-24 22:12:13,662 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684937532162, oid: 5b6518d3-21e9-4f04-b375-6829e17c84b6, exec_price: 22.59, base_vol: 0.11, counter_vol: 2.4849 
+2023-05-24 22:12:13,859 - trading_system - ERROR - Event engine exception: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:12:14,723 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937534628, bid: 22.55, ask: 22.59
+2023-05-24 22:12:15,585 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937535488, bid: 22.55, ask: 22.59
+2023-05-24 22:12:16,003 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:12:16,006 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937535586.643, luno_oid: None,client_oid: 44c4826f-c788-4ae6-a69f-728a673068c7, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:16,247 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937535586.643, luno_oid: BXKAAFG6HPZ6NGE,client_oid: 44c4826f-c788-4ae6-a69f-728a673068c7, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:16,584 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937536485, bid: 22.55, ask: 22.59
+2023-05-24 22:12:17,592 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937537504, bid: 22.55, ask: 22.59
+2023-05-24 22:12:19,162 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937538499, bid: 22.55, ask: 22.59
+2023-05-24 22:12:19,596 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937539505, bid: 22.55, ask: 22.59
+2023-05-24 22:12:20,879 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937540493, bid: 22.55, ask: 22.59
+2023-05-24 22:12:21,275 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:12:21,278 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937540881.135, luno_oid: None,client_oid: 545d5a7b-d320-44e8-9247-a0d401b5990c, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:21,626 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937541527, bid: 22.55, ask: 22.59
+2023-05-24 22:12:21,697 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937540881.135, luno_oid: BXMV7MGS64Y7J5K,client_oid: 545d5a7b-d320-44e8-9247-a0d401b5990c, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:22,590 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937542493, bid: 22.55, ask: 22.59
+2023-05-24 22:12:23,584 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937543497, bid: 22.55, ask: 22.59
+2023-05-24 22:12:24,748 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937544662, bid: 22.55, ask: 22.59
+2023-05-24 22:12:25,586 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937545495, bid: 22.55, ask: 22.59
+2023-05-24 22:12:26,824 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937546532, bid: 22.55, ask: 22.59
+2023-05-24 22:12:26,894 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937535586.643, luno_oid: BXKAAFG6HPZ6NGE,client_oid: 44c4826f-c788-4ae6-a69f-728a673068c7, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:27,605 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937547512, bid: 22.55, ask: 22.58
+2023-05-24 22:12:28,167 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937540881.135, luno_oid: BXMV7MGS64Y7J5K,client_oid: 545d5a7b-d320-44e8-9247-a0d401b5990c, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:12:29,075 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937548496, bid: 22.55, ask: 22.57
+2023-05-24 22:12:29,611 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937549518, bid: 22.55, ask: 22.57
+2023-05-24 22:12:30,599 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937550511, bid: 22.55, ask: 22.57
+2023-05-24 22:12:31,611 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937551516, bid: 22.55, ask: 22.57
+2023-05-24 22:12:32,599 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937552510, bid: 22.55, ask: 22.57
+2023-05-24 22:12:33,649 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937553512, bid: 22.55, ask: 22.57
+2023-05-24 22:12:34,616 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937554516, bid: 22.55, ask: 22.57
+2023-05-24 22:12:35,606 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937555515, bid: 22.55, ask: 22.57
+2023-05-24 22:12:36,609 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937556521, bid: 22.55, ask: 22.57
+2023-05-24 22:12:37,609 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937557517, bid: 22.55, ask: 22.57
+2023-05-24 22:12:38,617 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937558528, bid: 22.55, ask: 22.57
+2023-05-24 22:12:39,627 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937559531, bid: 22.55, ask: 22.57
+2023-05-24 22:12:40,610 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937560521, bid: 22.55, ask: 22.57
+2023-05-24 22:12:41,613 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937561525, bid: 22.55, ask: 22.57
+2023-05-24 22:12:42,622 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937562536, bid: 22.55, ask: 22.57
+2023-05-24 22:12:43,627 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937563535, bid: 22.55, ask: 22.57
+2023-05-24 22:12:45,108 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937565022, bid: 22.55, ask: 22.57
+2023-05-24 22:12:46,533 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937565559, bid: 22.55, ask: 22.57
+2023-05-24 22:12:46,770 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937566679, bid: 22.55, ask: 22.57
+2023-05-24 22:12:47,779 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937567672, bid: 22.55, ask: 22.57
+2023-05-24 22:12:49,377 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937568745, bid: 22.55, ask: 22.57
+2023-05-24 22:12:50,506 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937570415, bid: 22.55, ask: 22.57
+2023-05-24 22:12:50,784 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937570693, bid: 22.55, ask: 22.57
+2023-05-24 22:12:51,979 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937571679, bid: 22.55, ask: 22.57
+2023-05-24 22:12:52,779 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937572680, bid: 22.55, ask: 22.57
+2023-05-24 22:12:53,923 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937573728, bid: 22.55, ask: 22.57
+2023-05-24 22:12:54,824 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937574740, bid: 22.55, ask: 22.57
+2023-05-24 22:12:55,810 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937575705, bid: 22.55, ask: 22.57
+2023-05-24 22:12:56,784 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937576691, bid: 22.55, ask: 22.57
+2023-05-24 22:12:57,782 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937577690, bid: 22.55, ask: 22.57
+2023-05-24 22:12:58,797 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937578695, bid: 22.55, ask: 22.57
+2023-05-24 22:12:59,813 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937579703, bid: 22.55, ask: 22.57
+2023-05-24 22:13:00,917 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937580817, bid: 22.55, ask: 22.57
+2023-05-24 22:13:01,788 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937581704, bid: 22.55, ask: 22.57
+2023-05-24 22:13:02,816 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937582729, bid: 22.55, ask: 22.57
+2023-05-24 22:13:03,792 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937583698, bid: 22.55, ask: 22.57
+2023-05-24 22:13:04,803 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937584694, bid: 22.55, ask: 22.57
+2023-05-24 22:13:05,790 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937585707, bid: 22.55, ask: 22.57
+2023-05-24 22:13:07,319 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937586711, bid: 22.55, ask: 22.57
+2023-05-24 22:13:07,796 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937587717, bid: 22.55, ask: 22.57
+2023-05-24 22:13:08,795 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937588707, bid: 22.55, ask: 22.57
+2023-05-24 22:13:09,793 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937589704, bid: 22.55, ask: 22.57
+2023-05-24 22:13:10,795 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937590711, bid: 22.55, ask: 22.57
+2023-05-24 22:13:11,800 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937591703, bid: 22.55, ask: 22.57
+2023-05-24 22:13:12,824 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937592713, bid: 22.55, ask: 22.57
+2023-05-24 22:13:13,828 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937593740, bid: 22.55, ask: 22.57
+2023-05-24 22:13:15,156 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937594711, bid: 22.55, ask: 22.57
+2023-05-24 22:13:15,916 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937595816, bid: 22.55, ask: 22.57
+2023-05-24 22:15:08,882 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:15:09,175 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937709084, bid: 22.56, ask: 22.62
+2023-05-24 22:15:10,159 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937710053, bid: 22.56, ask: 22.62
+2023-05-24 22:15:11,202 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937711039, bid: 22.56, ask: 22.62
+2023-05-24 22:15:12,135 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937712045, bid: 22.56, ask: 22.62
+2023-05-24 22:15:13,374 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937713043, bid: 22.56, ask: 22.62
+2023-05-24 22:15:13,691 - trading_system - INFO - Market Order placed for UNIMYR: BID None
+2023-05-24 22:15:13,693 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937713377.492, luno_oid: None,client_oid: 6c62c8d2-3181-4122-ae6e-f048f9ac13ef, type: OrderType.MKT, dir: BID, price: 22.59, unit: 0.12
+2023-05-24 22:15:14,017 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937713377.492, luno_oid: BXDUHEV36PYT5UP,client_oid: 6c62c8d2-3181-4122-ae6e-f048f9ac13ef, type: OrderType.MKT, dir: BID, price: 22.59, unit: 0.12
+2023-05-24 22:15:14,192 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937714093, bid: 22.56, ask: 22.62
+2023-05-24 22:15:15,172 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937715040, bid: 22.56, ask: 22.62
+2023-05-24 22:15:15,355 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684937713598, oid: 6c62c8d2-3181-4122-ae6e-f048f9ac13ef, exec_price: 22.62, base_vol: 0.11, counter_vol: 2.4882 
+2023-05-24 22:15:15,550 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:15:16,135 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937716040, bid: 22.56, ask: 22.62
+2023-05-24 22:15:17,329 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937717054, bid: 22.56, ask: 22.62
+2023-05-24 22:15:18,215 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937718052, bid: 22.56, ask: 22.62
+2023-05-24 22:15:18,793 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.59@0.1
+2023-05-24 22:15:18,795 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937718219.738, luno_oid: None,client_oid: 38f9ddb8-f13b-4d92-bd34-be0ec675b67b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:19,154 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937719050, bid: 22.56, ask: 22.62
+2023-05-24 22:15:19,222 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937718219.738, luno_oid: BXF25GZF8D5PUXP,client_oid: 38f9ddb8-f13b-4d92-bd34-be0ec675b67b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:20,139 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937720045, bid: 22.56, ask: 22.62
+2023-05-24 22:15:22,287 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937722080, bid: 22.56, ask: 22.62
+2023-05-24 22:15:22,676 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937722435, bid: 22.56, ask: 22.62
+2023-05-24 22:15:23,592 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937723478, bid: 22.56, ask: 22.62
+2023-05-24 22:15:24,257 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.59@0.1
+2023-05-24 22:15:24,260 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937723595.5652, luno_oid: None,client_oid: 81f8e7e4-d3b7-4dad-9155-715dcf44dd6b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:24,583 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684937723595.5652, luno_oid: BXBK4XF4FZZUMVJ,client_oid: 81f8e7e4-d3b7-4dad-9155-715dcf44dd6b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:24,657 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937724553, bid: 22.56, ask: 22.62
+2023-05-24 22:15:25,551 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937725438, bid: 22.56, ask: 22.62
+2023-05-24 22:15:26,554 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937726443, bid: 22.56, ask: 22.62
+2023-05-24 22:15:27,534 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937727442, bid: 22.56, ask: 22.62
+2023-05-24 22:15:28,587 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937728444, bid: 22.56, ask: 22.62
+2023-05-24 22:15:29,581 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937729464, bid: 22.56, ask: 22.62
+2023-05-24 22:15:29,818 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937723595.5652, luno_oid: BXBK4XF4FZZUMVJ,client_oid: 81f8e7e4-d3b7-4dad-9155-715dcf44dd6b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:30,532 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937730448, bid: 22.56, ask: 22.62
+2023-05-24 22:15:31,066 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684937718219.738, luno_oid: BXF25GZF8D5PUXP,client_oid: 38f9ddb8-f13b-4d92-bd34-be0ec675b67b, type: OrderType.LMT, dir: BID, price: 7.59, unit: 0.1
+2023-05-24 22:15:31,546 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937731451, bid: 22.56, ask: 22.62
+2023-05-24 22:15:32,600 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937732460, bid: 22.56, ask: 22.62
+2023-05-24 22:15:33,562 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937733468, bid: 22.56, ask: 22.62
+2023-05-24 22:15:34,552 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937734465, bid: 22.56, ask: 22.62
+2023-05-24 22:15:35,876 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937735596, bid: 22.56, ask: 22.62
+2023-05-24 22:15:36,564 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937736458, bid: 22.56, ask: 22.62
+2023-05-24 22:15:38,027 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937737943, bid: 22.56, ask: 22.62
+2023-05-24 22:15:38,714 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937738444, bid: 22.56, ask: 22.62
+2023-05-24 22:15:39,531 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937739444, bid: 22.56, ask: 22.62
+2023-05-24 22:15:40,540 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937740456, bid: 22.56, ask: 22.62
+2023-05-24 22:15:41,584 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937741464, bid: 22.56, ask: 22.62
+2023-05-24 22:15:42,552 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937742449, bid: 22.56, ask: 22.62
+2023-05-24 22:15:43,549 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937743451, bid: 22.56, ask: 22.61
+2023-05-24 22:15:44,549 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937744449, bid: 22.56, ask: 22.59
+2023-05-24 22:15:45,550 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937745462, bid: 22.56, ask: 22.59
+2023-05-24 22:15:46,743 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937746472, bid: 22.56, ask: 22.59
+2023-05-24 22:15:47,582 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937747465, bid: 22.56, ask: 22.59
+2023-05-24 22:15:48,613 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937748489, bid: 22.56, ask: 22.59
+2023-05-24 22:15:49,575 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937749482, bid: 22.56, ask: 22.59
+2023-05-24 22:15:50,581 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937750493, bid: 22.56, ask: 22.59
+2023-05-24 22:15:51,575 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937751490, bid: 22.56, ask: 22.59
+2023-05-24 22:15:52,613 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937752491, bid: 22.56, ask: 22.59
+2023-05-24 22:15:53,607 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937753488, bid: 22.56, ask: 22.59
+2023-05-24 22:15:54,575 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937754473, bid: 22.56, ask: 22.59
+2023-05-24 22:15:55,547 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937755470, bid: 22.56, ask: 22.59
+2023-05-24 22:15:56,567 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937756479, bid: 22.56, ask: 22.59
+2023-05-24 22:15:57,554 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937757475, bid: 22.56, ask: 22.59
+2023-05-24 22:15:58,585 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937758489, bid: 22.56, ask: 22.59
+2023-05-24 22:15:59,625 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937759501, bid: 22.56, ask: 22.59
+2023-05-24 22:16:00,743 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937760504, bid: 22.56, ask: 22.59
+2023-05-24 22:16:01,638 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937761523, bid: 22.56, ask: 22.59
+2023-05-24 22:16:02,890 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937762503, bid: 22.56, ask: 22.59
+2023-05-24 22:16:04,214 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937763513, bid: 22.56, ask: 22.59
+2023-05-24 22:16:04,629 - trading_system - INFO - Tick: TICK UNIMYR.luno - date: 1684937764506, bid: 22.56, ask: 22.59
+2023-05-24 22:24:00,178 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:24:05,065 - trading_system - ERROR - Event engine exception: ('ErrInvalidValue', 'Invalid value provided for counter_volume')
+2023-05-24 22:24:10,242 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:24:10,245 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938249798.6008, luno_oid: None,client_oid: 17c667f4-c922-4534-930a-36140f397154, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:24:10,487 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938249798.6008, luno_oid: BXCUZCY4F9WBG8K,client_oid: 17c667f4-c922-4534-930a-36140f397154, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:24:15,408 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:24:15,411 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938255005.3489, luno_oid: None,client_oid: 46c554bb-abee-402b-857a-0b016e8312f6, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:24:15,987 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938255005.3489, luno_oid: BXEVBJS5XUCMHCH,client_oid: 46c554bb-abee-402b-857a-0b016e8312f6, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:24:21,084 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938249798.6008, luno_oid: BXCUZCY4F9WBG8K,client_oid: 17c667f4-c922-4534-930a-36140f397154, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:24:21,802 - trading_system - ERROR - Event engine exception: float division by zero
+2023-05-24 22:24:22,472 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938255005.3489, luno_oid: BXEVBJS5XUCMHCH,client_oid: 46c554bb-abee-402b-857a-0b016e8312f6, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:25:58,800 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:26:03,242 - trading_system - ERROR - Event engine exception: ('ErrInvalidValue', 'Invalid value provided for counter_volume')
+2023-05-24 22:26:08,477 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:26:08,698 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938368030.548, luno_oid: BXJT4BT9C4HBE23,client_oid: d1210086-c585-45b3-aa37-9daa7e1bda57, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:26:13,433 - trading_system - INFO - Limit Order placed for UNIMYR: BID 7.57@0.1
+2023-05-24 22:26:13,668 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938373045.2422, luno_oid: BXCH7X8ZZCA4KSF,client_oid: f9eb7aeb-db4e-4e6b-88ee-4aa8e47b254a, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:26:19,359 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938373045.2422, luno_oid: BXCH7X8ZZCA4KSF,client_oid: f9eb7aeb-db4e-4e6b-88ee-4aa8e47b254a, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:26:20,522 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938368030.548, luno_oid: BXJT4BT9C4HBE23,client_oid: d1210086-c585-45b3-aa37-9daa7e1bda57, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:27:33,321 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:27:37,856 - trading_system - ERROR - Event engine exception: ('ErrCounterDenominationNotAllowed', 'Amount contains too many decimal places')
+2023-05-24 22:27:43,859 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938462694.638, luno_oid: BXHV7VWUKRANQDW,client_oid: 71291266-8eb4-4952-8385-9b45aa5b3e88, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:27:48,199 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938467564.079, luno_oid: BX5K7D6G35S5X6,client_oid: 9c340910-44fd-4f92-aa1d-3247d552fed0, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:27:54,491 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938467564.079, luno_oid: BX5K7D6G35S5X6,client_oid: 9c340910-44fd-4f92-aa1d-3247d552fed0, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:27:55,965 - trading_system - ERROR - Event engine exception: float division by zero
+2023-05-24 22:27:56,988 - trading_system - INFO - Order cancelled: ORDER UNIMYR.1 - ts: 1684938462694.638, luno_oid: BXHV7VWUKRANQDW,client_oid: 71291266-8eb4-4952-8385-9b45aa5b3e88, type: OrderType.LMT, dir: BID, price: 7.57, unit: 0.1
+2023-05-24 22:31:06,749 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:31:11,310 - trading_system - ERROR - Event engine exception: ('ErrVolumeTooLow', 'Volume is below the minimum')
+2023-05-24 22:31:26,931 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:31:32,268 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684938691171.4312, luno_oid: BXFSKQS79W4FZA3,client_oid: d53869df-2c1a-44b2-b8b8-296c6b1cfeaa, type: OrderType.MKT, dir: BID, price: 22.59, unit: 0.12
+2023-05-24 22:31:35,163 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684938691392, oid: d53869df-2c1a-44b2-b8b8-296c6b1cfeaa, exec_price: 22.61, base_vol: 0.11, counter_vol: 2.4871 
+2023-05-24 22:31:35,299 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:31:35,300 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684938691392, oid: d53869df-2c1a-44b2-b8b8-296c6b1cfeaa, exec_price: 22.61, base_vol: 0.11, counter_vol: 2.4871 
+2023-05-24 22:31:37,284 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:37:11,373 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:37:16,689 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684939035632.8398, luno_oid: BXMUVVB7YK73GR,client_oid: 8a19f59a-013c-43b0-b8da-22669151ea41, type: OrderType.MKT, dir: BID, price: 22.564999999999998, unit: 0.12
+2023-05-24 22:37:17,770 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684939036346, oid: 8a19f59a-013c-43b0-b8da-22669151ea41, exec_price: 22.57, base_vol: 0.12, counter_vol: 2.7084 
+2023-05-24 22:37:17,944 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:40:17,740 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:40:22,716 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684939222165.441, luno_oid: BXEXNRSCGCAWYN5,client_oid: 51cf5e71-5e8f-4720-a766-410920edb71e, type: OrderType.MKT, dir: BID, price: 22.564999999999998, unit: 0.12
+2023-05-24 22:40:24,268 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684939222388, oid: 51cf5e71-5e8f-4720-a766-410920edb71e, exec_price: 22.57, base_vol: 0.12, counter_vol: 2.7084 
+2023-05-24 22:40:24,436 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:40:24,439 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684939222388, oid: 51cf5e71-5e8f-4720-a766-410920edb71e, exec_price: 22.57, base_vol: 0.12, counter_vol: 2.7084 
+2023-05-24 22:40:28,734 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:41:30,187 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:41:35,613 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684939294925.453, luno_oid: BXDGC6GJ7Y35QN3,client_oid: 0d949b55-29ce-4376-af37-658669a578bf, type: OrderType.MKT, dir: BID, price: 22.564999999999998, unit: 0.12
+2023-05-24 22:41:36,699 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684939295169, oid: 0d949b55-29ce-4376-af37-658669a578bf, exec_price: 22.57, base_vol: 0.12, counter_vol: 2.7084 
+2023-05-24 22:41:36,875 - trading_system - ERROR - Event engine exception: bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:44:23,746 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:44:30,280 - trading_system - INFO - Order placed: ORDER UNIMYR.1 - ts: 1684939469739.696, luno_oid: BXC37GG5ZCTGUPE,client_oid: dfdd1bb7-2fa9-4d5a-8b0a-8696b2392bf5, type: OrderType.MKT, dir: BID, price: 22.564999999999998, unit: 0.12
+2023-05-24 22:44:31,420 - trading_system - INFO - Order filled: FILL UNIMYR.1 - ts: 1684939469942, oid: dfdd1bb7-2fa9-4d5a-8b0a-8696b2392bf5, exec_price: 22.57, base_vol: 0.12, counter_vol: 2.7084 
+2023-05-24 22:44:31,561 - trading_system - ERROR - Event engine exception: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2023-05-24 22:46:15,202 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:46:54,087 - trading_system - INFO - Successful connection to database!
+2023-05-24 22:47:17,560 - trading_system - INFO - Successful connection to database!

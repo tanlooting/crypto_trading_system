@@ -35,11 +35,15 @@ class marketMaking(StrategyBase):
         self.ask_counter = 0  # no. of asks placed
 
         self.bid_spread = 0  # distance away from mid price
-        self.ask_spread = 0
-        self.min_spread = 0
+        self.ask_spread = 0 
+        self.min_spread = 0 # at what min spread should the bot automatically cancel orders
 
         self.order_refresh_time = 0  # seconds before cancelling all orders
+        self.order_refresh_tolerance_pct  = 0 #
+        
         self.order_levels = 1  # no. of orders at each side
+        self.order_level_amount = 0 # volume increments for subsequent orders
+        self.order_level_spread = 0 # price increments for subsequent orders
 
         self.inventory_skew_enabled = False
         self.inventory_target_base = 0  # target inventory
@@ -49,8 +53,8 @@ class marketMaking(StrategyBase):
         self.ping_pong_enabled = False
         # PARAMS (initialized from the start)
         self.min_tick_size = None
-        self.base_init_inventory = None
-        self.counter_inventory = None
+        self.base_init_inventory = None # base asset inventory level
+        self.counter_inventory = None # counter asset inventory level
         self.target_ratio = 0
         self.current_ratio = 0
 
